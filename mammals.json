@@ -1,6 +1,6 @@
 {
     "title": "Mammals",
-    "description": "A tour of mamamals divided into their five main groups",
+    "description": "A tour of the five main groups of mammals",
     "author": "OneZoom",
     "image_url": "imgsrc:3:-27123592",
 
@@ -17,7 +17,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Mammals tour",
-            "window_text": ["Mammals can be divided into five main groups, based on their evolutionary history. These are the monotremes, the marsupials, and 3 groups of placental mammals.","We’ve highlighted these branches in different colours so you know what's coming, but we hope you’ll still find some surprises!"]
+                "window_text": ["Humans are mammals, so are panthers and platypuses. We all descend from a common ancestor that was around during the rise of the dinosaurs, almost 200 million years ago. We have inherited several unique features from this common ancestor, like the ability to suckle our young.", "The mammals fall into five natural groups: the monotremes, the marsupials, and 3 groups of ”placental” mammals.","On the tree, we’ve highlighted these branches in different colours so you know what's coming, but we hope you’ll still find some surprises!"]
             }
         },
         {
@@ -39,7 +39,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Monotremes",
-                "window_text": "The platypus and the echidnas are together known as monotremes. Monotremes are the first of our five groups. Unlike all other mammals, they lay eggs, rather than give birth to live young. Here are some more fun facts about them.",
+                "window_text": ["The platypus and the echidnas are together known as monotremes. Monotremes are the first of our five groups.", "The handful of species that are found today live exclusively in Australia and New Guinea, and they are the only mammals that have a claim to be truly ”southern”: all fossil species are found in the southern hemisphere. Although like all mammals their babies feed on milk, monotremes do not give birth to live young: they lay eggs instead! Here are some more fun facts about them."],
                 "media": [
                     "mammals/platypus_fun_facts.jpeg"
                 ]
@@ -51,7 +51,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Marsupials",
-                "window_text": ["The next group is the marsupials: around 300 species.","Although marsupials give birth to live young, they lack a true placenta, so the young, called joeys, are born very early (after 10.7 - 38 days, depending on the species).","Newborn joeys are blind, and crawl to their mother's pouch, which acts like an external womb. In the pouch, the tiny joey drinks its mother's milk until it's mature enough to feed for itself."],
+                "window_text": ["The next group is the marsupials: around 300 species, including koalas, kangaroos, and wombats. Today they are mainly found in South American and Australia, but compared to the monotremes they are relative newcomers there: their oldest fossils are found in China and North America.","Although marsupials give birth to live young, they lack a true placenta, so the young, called joeys, are born very early (after 10.7 - 38 days, depending on the species).","Newborn joeys are blind, and crawl to their mother's pouch, which acts like an external womb. In the pouch, the tiny joey drinks its mother's milk until it's mature enough to feed for itself."],
                 "media": [
                     "https://commons.wikimedia.org/wiki/File:Forester_kangaroo_(Macropus_giganteus_tasmaniensis)_female_with_joey_Esk_Valley_2.jpg"
                 ]
@@ -63,7 +63,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Tasmanian devil",
-                "window_text": ["The Tasmanian devil is the largest marsupial carnivore since the extinction of the Tasmanian tiger in 1936.","Sadly, Tasmanian devils are plagued by devil facial tumour disease. This is an unusual form of cancer that can be trasmitted as an infection from one devil to another.","Devil facial tumour disease is the biggest reason why the Tasmanian devil species is at risk of extinction, although road traffic and occasionally domestic dogs also have an impact."],
+                "window_text": ["The Tasmanian devil is the largest marsupial carnivore since the extinction of the Tasmanian tiger in 1936.","Sadly, Tasmanian devils are plagued by devil facial tumour disease. This is an unusual form of cancer that can be trasmitted as an infection from one devil to another.","Devil facial tumour disease is the biggest reason why the Tasmanian devil species is at risk of extinction, although they are also threatened by road traffic and occasionally domestic dogs."],
                 "media": [
                     "mammals/Tasmanian_Devil.jpg"
                 ]
@@ -76,7 +76,10 @@
                 "visible-transition_in": true,
                 "title": "Placental mammals",
                 "window_text": 
-                "The vast majority of mammal species, and all three of our remaining groups, are the placental mammals. Unlike marsupials, placental mammals develop for much longer inside the womb. This is because they are nourished by their mother through a placenta."
+                "The vast majority of mammal species, and all three of our remaining groups, are the placental mammals, the group to which we belong. These mammals have evolved a structure known as the placenta (below): an intricate interface that mediates between the needs of the mother and the demands of the child growing inside her. This allows placental mammals to mature for much longer inside the womb than marsupials.",
+                "media": [
+                    "mammals/placenta.svg"
+                ]
             }
         },
         {
@@ -92,17 +95,27 @@
             }
         },
         {
-            "identifier": "Why three groups?",
+            "identifier": "Why three placental mammal groups?",
             "ott": "683263",
             "stop_wait": 120000,
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Why three groups?",
-                "window_text": ["Why do the placental mammals fall into 3 natural groups? There's a fascinating answer, and it's about how continents moved in the past.",
-                { "visible-active_wait": true, "text": "The three groups are associated with South America, Africa and the Northern hemisphere. Scientists have found that the groups started to diverge around 90 million years ago, at the same time as these landmasses were drifting apart. Below you can see what our planet looked like at that time, and the regions where the three groups originated." }],
+                "window_text": ["Why do the placental mammals fall into 3 natural groups? The clue lies in the timing of this split, which scientists have dated to about a hundred million years ago.",
+                { "visible-active_wait": true, "text": "Around this time, South America, Africa and the Northern hemisphere started to drift apart. Below you can see a map of our planet at that time. It’s thought that each of the three placental mammal groups ended up on a separate landmass (indicated by the arrows), so that they ended up evolving in ”splendid isolation” from each other for tens of millions of years." }],
                 "media": [
                     { "visible-active_wait": true, "url": "mammals/continents.jpeg" }
                 ]
+            }
+        },
+        {
+            "identifier": "A story of nurturing and geography",
+            "ott": "244265",
+            "stop_wait": 120000,
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "A story of nurturing and geography",
+                "window_text": ["As we’ve seen, although mammals all nurture their babies using milk, the early stages of development are very different between the the egg-laying monotremes, the pouch-bearing marsupials, and the placental mammals.", "These different growth strategies evolved against the backdrop of an evolutionary history driven by the past position of the continents. While monotremes are the true mammals of the south, marsupials only ended up there after first evolving in the northern hemisphere. Much later, the splitting of continents produced three branches of placental mammals: an African group (”Afrotheria”, which includes elephants, aardvarks, and golden moles), a South American contingent (”Xenarthra”: the sloths, anteaters, and armadillos), and a North American/Eurasian bunch (”Boreoeutheria”, which includes rodents, primates, carnivores, bats, and more.", "Although that's the end of our brief tour of mammals, all these groups and much more can be explored on our tree of life simply by closing this window."]
             }
         }
     ]
