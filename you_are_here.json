@@ -83,7 +83,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Make a guess: answer",
-                "window_text": ["If there are 5 thousand MAMMAL species, how many species of ANIMAL do you think there are in total?","5 thousand, 14 thousand, 140 thousand, 1.4 million or over 1.4 million?",{ "visible-transition_in": true, "text": "..."},{ "visible-active_wait": true, "text": "The answer is... over 1.4 million, so the mammals are about a third of 1% of all species of animal."}
+                "window_text": ["If there are 5 thousand MAMMAL species, how many species of ANIMAL do you think there are in total?","5 thousand, 14 thousand, 140 thousand, 1.4 million or over 1.4 million?",{ "visible-transition_in": true, "text": "..."},{ "visible-active_wait": true, "text": "The answer is... over 1.4 million, meaning only 1 in 300 animal species is a mammal."}
                 ]
             }
         },
@@ -95,7 +95,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Sponges",
-                "window_text": "There are even more different species of sponge than there are mammal!",
+                "window_text": "There are even more species of sponges than there are of mammals!",
                 "comment": "We'd like this to zoom into the node"
             }
         },
@@ -106,7 +106,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Complete tree",
-                "window_text": ["The complete tree of all known life on earth includes a lot more than just animals!  There are plants, fungi, bacteria, and a host of other wierd things that don't fall into any of those groups." , { "visible-active_wait": true, "text": "If you spent just two and a half minutes looking at each species, you'd be busy for your entire working life. That's why this tree is a work in progress and scientists are continually making improvements to everything you see here!"}]
+                "window_text": ["The complete tree of all known life on earth includes a lot more than just animals!  There are plants, fungi, bacteria, and a host of other weird things that don't fall into any of those groups." , { "visible-active_wait": true, "text": "If you spent just two and a half minutes looking at each species, you'd be busy for your entire working life. That's why this tree is a work in progress and scientists are continually making improvements to everything you see here!"}]
             }
         }
     ]
