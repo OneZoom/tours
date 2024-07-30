@@ -26,7 +26,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Fossils",
-                "window_text": ["On the OneZoom tree we don't currently show fossils, only living species. Living species are not our ancestors. Below you can see some fossil skulls of extinct species of great ape. They will mostly be old counsins rather than direct ancestors but they can still tell a lot about our evolutionary history."],
+                "window_text": ["On the OneZoom tree we don't currently show fossils, only living species. Living species are not our ancestors. Below you can see some fossil skulls of extinct species of great ape. They will mostly be old cousins rather than direct ancestors but they can still tell a lot about our evolutionary history."],
                 "media": ["https://commons.wikimedia.org/wiki/File:Fossil_hominids.jpg"]
             }
         },
