@@ -35,7 +35,7 @@ curl http://localhost:8000/tour/data.html/edge_species
 ## Adding bespoke images / audio to tours
 
 1. Add the source image to this repository, in a directory with the same name as your tour.
-   Note that it's filename will be used as an alt tag (with _ replaced with " "), so a descriptive name is sensible.
+   Note that its filename will be used as an alt tag (with _ replaced with " "), so a descriptive name is sensible.
 2. Next to the image, add a ``.md`` file which at least contains a link to your image and the source of the image, e.g:
 
 ```md
