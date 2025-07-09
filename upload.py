@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import argparse
 import base64
 import getpass
 import json
@@ -7,22 +8,43 @@ import urllib.request
 import ssl
 import sys
 
+argparser = argparse.ArgumentParser(
+    description=(
+        "Upload OneZoom tour data to a OneZoom server. "
+        "Usage: upload.py http://localhost:8000/ *.json"
+    )
+)
+argparser.add_argument(
+    'http_base',
+    help='The base URL of the OneZoom server, e.g. http://localhost:8000/',
+)
+argparser.add_argument(
+    'files',
+    help='The JSON files to upload, e.g. *.json',
+    nargs='+',
+)
+argparser.add_argument(
+    '--user', '-u',
+    help='The web2py user to use for authentication (default: admin)',
+    default='admin',
+)
+
+args = argparser.parse_args()
+
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 # Collect password
-http_user = "admin"
-http_password = getpass.getpass(prompt='Password for %s: ' % http_user, stream=None)
+http_password = getpass.getpass(prompt='Password for %s: ' % args.user, stream=None)
 
-http_base = sys.argv[1]
-if not http_base.startswith('http'):
+if not args.http_base.startswith('http'):
     raise ValueError("Usage: upload.py http://localhost:8000/ *.json")
     sys.exit(1)
 
-for file_path in sys.argv[2:]:
+for file_path in args.files:
     url = "%s/tour/data.json/%s" % (
-        http_base,
+        args.http_base,
         os.path.splitext(os.path.basename(file_path))[0],
     )
     print("===== Uploading %s to %s" % (
@@ -35,7 +57,7 @@ for file_path in sys.argv[2:]:
 
     request = urllib.request.Request(url, method='PUT')
     request.add_header("Authorization", ("Basic %s" % base64.b64encode(':'.join((
-        http_user,
+        args.user,
         http_password
     )).encode('utf8')).decode('utf8')))
     request.add_header('Content-Type', 'application/json; charset=utf-8')
@@ -49,7 +71,7 @@ for file_path in sys.argv[2:]:
         print("Tour ID %d" % out['id'])
 
     request = urllib.request.Request("%s/tour/data.html/%s" % (
-        http_base,
+        args.http_base,
         os.path.splitext(os.path.basename(file_path))[0],
     ), method='GET')
     try:
