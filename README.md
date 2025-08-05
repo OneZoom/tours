@@ -9,27 +9,27 @@ The JSON format is described in https://github.com/OneZoom/OZtree/blob/main/cont
 You can insert a single tour or multiple tours into a OneZoom instance with the ``upload.py`` script:
 
 ```
-./upload.py http://localhost:8000/ *.json
+./upload.py https://localhost:8000/ *.json
 ```
 
 You can also use CURL directly:
 
 ```
 curl -X PUT -H "Content-Type: application/json" --user admin \
-    http://localhost:8000/tour/data.json/edge_species \
+    https://localhost:8000/tour/data.json/edge_species \
     -d @edge_species.json
 ```
 
 Fetch it back again with:
 
 ```
-curl http://localhost:8000/tour/data.json/edge_species
+curl https://localhost:8000/tour/data.json/edge_species
 ```
 
 Or as HTML with:
 
 ```
-curl http://localhost:8000/tour/data.html/edge_species
+curl https://localhost:8000/tour/data.html/edge_species
 ```
 
 ## Adding bespoke images / audio to tours
