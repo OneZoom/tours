@@ -5,7 +5,7 @@
     "image_url": "imgsrc:20:131773",
     "tourstop_shared": {
         "fly_in_speed": 0.8,
-        "stop_wait": 25000
+        "stop_wait": 200000
     },
     "tourstops": [
         {
@@ -14,12 +14,22 @@
             "transition_in":"leap",
             "template_data": {
                 "visible-transition_in": true,
-                "title": "Fossil tree information",
+                "title": "The OneZoom fossil tree",
                 "window_text": [
                     "The OneZoom fossil tree of life is a work in progress, showing many of our extinct relatives, including dinosaurs, early mammals, and others. It also includes some selected living groups for context, like birds, snakes, and various mammal groups such as horses and tree shrews.",
-                    "This is a companion to the main OneZoom tree, which shows millions of living species of plants and animals, and which you can visit via the logo at the top of this page. The fossil tree is much less complete, and often only shows higher-level groups rather than individual species (e.g. _Tyrannosaurus_, rather than _Tyrannosaurus rex_). Additionally, most fossil species are known from a handful of teeth or bones, so reconstructions of the whole animal can be somewhat speculative.",
-                    "The relationships shown in the OneZoom fossil tree are taken by semi-automated harvesting of Wikipedia pages, particularly those which include 'cladograms' of relationships taken from the scientific literature. For this reason, the fossil tree is currently not a complete or authoritative source of information. Nevertheless, we hope it will help you to explore the relationships between fossil and living species."
-                ]
+                    "This is a companion to the main OneZoom tree, which shows millions of living species of plants and animals, and which you can visit via the logo at the top of this page."]
+            }
+        },
+        {
+            "identifier": "Cladogram",
+            "ott": "329457",
+            "transition_in":"zoom",
+            "stop_wait": 30000,
+            "template_data": {
+                "visible-transition_in": true,
+                "qs_opts": "pop=ol_329457",
+                "title": "Relationships in the tree",
+                "window_text": ["The relationships shown in the OneZoom fossil tree are taken by semi-automated harvesting of Wikipedia pages, particularly those which include 'cladograms' of relationships taken from the scientific literature. For this reason, the fossil tree is currently not a complete or authoritative source of information. Nevertheless, we hope it will help you to explore the relationships between fossil and living species."]
             }
         },
         {
@@ -27,29 +37,18 @@
             "ott": "181537",
             "transition_in":"zoom",
             "stop_wait": 30000,
+            "qs_opts": "highlight=fan:rgb(247,130,130)@=189069&highlight=fan:rgb(130,130,247)@=329457",
             "template_data": {
                 "visible-transition_in": true,
-                "title": "Scope of the tree",
-                "window_text": ["Although there are hundreds of thousands of fossil plants, fish, shells, and microorganisms, currently the OneZoom fossil tree only includes **Amniotes**. In terms of living species, that includes mammals, reptiles and birds (but not amphibians). When you factor in extinct species, amniotes include dinosaurs, pterosaurs, ichthyosaurs, early mammals, and many other things. Limiting the tree to amniotes is a scoping decision, a starting point for future work.",
-                "There are two major groups of amniotes that have descendants that are alive today: synapsids and sauropsids."]
-            }
-        },
-        {
-            "identifier": "Synapsids",
-            "ott": "189069",
-            "qs_opts": "into_node=max",
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Synapsids",
-                "window_text": ["The only living descendants of the synapsids are the mammals. Early fossil synapsids were the dominant land vertebrates before the dinosaurs, and are often mistaken for them.","Actually these mammal-like reptiles, such as the sail-backed *Dimetrodon*, are more closely related to us than they are to dinosaurs. We'll return to this group later; first let's look at the sauropsids."],
-                "media": [
-                    "//upload.wikimedia.org/wikipedia/commons/thumb/5/51/Dimetrodon_grandis_3D_Model_Reconstruction.png/1024px-Dimetrodon_grandis_3D_Model_Reconstruction.png"
-                ]
+                "title": "What's included?",
+                "window_text": ["Most fossils are invertebrates (lots of shells!) as well as microfossils such as plankton. These - along with fossil plants, fish, and amphibians - are *not* currently included in the OneZoom fossil tree. Instead, this tree focusses on the **Amniotes**: dinosaurs, pterosaurs, ichthyosaurs, early mammals, and other four-limbed vertebrates.",
+                "Two major groups of amniotes have descendants that are alive today: synapsids (highlighted here in red) and sauropsids (highlighted in blue). We'll look at the sauropsids first."]
             }
         },
         {
             "identifier": "Sauropsids",
             "ott": "329457",
+            "qs_opts": "highlight=fan:rgb(130,130,247)@=329457",
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Sauropsids",
@@ -63,11 +62,12 @@
         {
             "identifier": "Sauria",
             "ott": "2254408",
+            "qs_opts": "highlight=fan:rgb(200,130,247)@=19595522&highlight=fan:rgb(130,200,247)@=134665",
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Sauria",
-                "window_text": ["All living sauropsids fall within a group known as Sauria. One branch of the Sauria leads to the lizards, snakes and their extinct relatives. The other leads to turtles, crocodiles, birds, and their extinct relatives.",
-                "Fossil lizards include the enormous **mosasaurs** (pictured below), the top predators in the sea at the time the dinosaurs went extinct, with several species larger than a modern killer whale . However, the most famous fossil saurians are found on the other branch of the tree, among the turtles, crocodiles, and birds. They include the flying **pterosaurs**, the marine **plesiosaurs** (which were almost as large as mosasaurs), and of course, the **dinosaurs**."],
+                "window_text": ["All living sauropsids fall within a group known as Sauria. One branch of the Sauria leads to the lizards, snakes and their extinct relatives (shown here in light blue). The other includes turtles, crocodiles, birds, and their extinct relatives (purple).",
+                "Fossil lizards include the enormous **mosasaurs** (pictured below), the top predators in the sea at the time the dinosaurs went extinct, with several species larger than a modern killer whale. However, the most famous fossil saurians are found on the other branch of the tree, among the turtles, crocodiles, and birds. They include the flying **pterosaurs**, the marine **plesiosaurs** and **ichthyosaurs** (some larger than the largest mosasaur), and of course, the **dinosaurs**."],
                 "media": [
                     "//commons.wikimedia.org/wiki/File:Tylosaurus_pembinensis_1DB.jpg"
                 ]
@@ -81,7 +81,7 @@
                 "visible-transition_in": true,
                 "title": "Dinosaurs",
                 "window_text": [
-                    "We'll now look at dinosaurs in more detail. As you can see, this group also includes the birds - the only living descendants of the dinosaurs.", "Given this close relationship, perhaps it's not surprising that it has recently become clear than many dinosaurs of all types actually had feathers or proto-feathers, at least when young."
+                    "We'll now look at dinosaurs in more detail. As you can see, this group also includes the birds - the only living descendants of the dinosaurs.", "Given this close relationship, perhaps it's not surprising that it has recently become clear than many dinosaurs of all types, like the *Acheroraptor* below, actually had feathers or proto-feathers, at least when young."
                 ],
                 "media": [
                     "//commons.wikimedia.org/wiki/File:Acheroraptor_reconstruction.jpg"
@@ -95,7 +95,7 @@
                 "visible-transition_in": true,
                 "title": "Dinosaur groups",
                 "window_text": [
-                    "Dinosaurs can be classified into **ornithischians** (which include _Stegosaurus_ and _Triceratops_) and **sauriscians**. Sauriscians are themselves divided into the herbivorous sauropods (which gradually evolved to enormous sizes, reverting to walking on all fours), and the mainly carnovorous therapods (such as _Tyrannosaurus_ and _Velociraptor_)."
+                    "Dinosaurs can be classified into **ornithischians** (which include _Stegosaurus_ and _Triceratops_) and **sauriscians**. Both groups appear to have been originally bipedal, walking on 2 legs, but some lineages reverted to walking on all fours. For example among the sauriscians the mainly carnivorous **therapods** (such as _Tyrannosaurus_ and _Velociraptor_) remained bipedal, while the huge herbivorous **sauropods** evolved to become primarily four-legged."
                 ]
             }
         },
@@ -106,9 +106,9 @@
                 "visible-transition_in": true,
                 "title": "The Apatosaurinae",
                 "window_text": [
-                    "We'll now take a closer look at one of the most famous sauropods.",
-                    "The huge four-footed sauropods *Brontosaurus* and *Apatosaurus* grew to over 20 metres long. For a long time, the two were considered similar enough to be given the same genus name - as *Apatosaurus* was coined first, the name *Brontosaurus* was therefore considered redundant.",
-                    "However, that was changed in 2015 by discoveries of more and better preserved sauropod species. These revealed enough differences between the fossils described as *Brontosaurus* and those described as *Apatosaurus* to be able to be able to put them into separate groups. Now *Brontosaurus* and *Apatosaurus* stand tall as separate sister groups within the subfamily Apatosaurinae."
+                    "We'll now take a closer look at one of the most famous sauropod groups.",
+                    "*Apatosaurus* and *Brontosaurus* grew to over 20 metres long. Originally named in 1877 and 1879, it soon came to be argued that they were similar enough to be classified within the same genus, *Apatosaurus*, making the name *Brontosaurus* redundant.",
+                    "However discoveries of more and better preserved sauropod species in 2015 revealed enough differences to justify splitting them into separate genera again. Now *Brontosaurus* and *Apatosaurus* stand tall as separate sister groups within the subfamily Apatosaurinae."
                 ],
                 "media": [
                     "//commons.wikimedia.org/wiki/File:Brontosaurus_UDL.png"
@@ -116,16 +116,46 @@
             }
         },
         {
-            "identifier": "Tyrannosauridae",
-            "ott": "131050",
+            "identifier": "Brachiosaurus",
+            "ott": "14397",
             "template_data": {
                 "visible-transition_in": true,
-                "title": "Tyrannosaurus and friends",
+                "title": "Fossils are fragmentary",
                 "window_text": [
-                    "Probably the most famous dinosaur is is the huge *Tyrannosaurus*, part of a family of about 15 general called Tyrannosauridae, nested deep within the therapods. Theropods were originally carnivorous, something that's seen in many other therapods such as *Allosaurus* and *Giganotosaurus*. However, some therapods evolved to become herbivorous, and others evolved into the birds we see today."
+                    "Most fossils are very incomplete, and a species may only be known from a handful of teeth or bones. For example, the iconic sauropod _Brachiosaurus_ has less than 50% of the skeleton known, even when fragments from different specimens are used (coloured differently in the picture below). That makes reconstructions of the whole animal somewhat speculative, and it can be hard to know whether fossils that look similar belong to a single species or multiple closely related ones. For that reason, in many cases the OneZoom fossil tree shows a genus (e.g. _Tyrannosaurus_) but does not break this down into separate species (e.g. _Tyrannosaurus rex_) within that genus."
+                ],
+                "media": [
+                    "//commons.wikimedia.org/wiki/File:Brachiosaurus_Composite_Skeletal.svg"
+                ]
+            }
+        },
+        {
+            "identifier": "Tyrannosaurus",
+            "ott": "14332",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Tyrannosaurus",
+                "window_text": [
+                    "_Tyrannosaurus_ itself is found on the other branch of sauriscians, the **therapods**. It's one of a number of different therapod lineages in which some species evolved to huge size (more examples below).",
+                    "Theropods were originally carnivorous, something that's seen in many other therapods such as _Allosaurus_ and _Giganotosaurus_. However, a few therapods evolved to become herbivorous, and others evolved into the birds we see today."
                 ],
                 "media": [
                     "//commons.wikimedia.org/wiki/File:Longest_theropods.svg"
+                ]
+            }
+        },
+       {
+            "identifier": "Tyrannosauroidea",
+            "ott": "131396",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Tyrannosaurs and friends",
+                "window_text": [
+                    "Although we think of tyrannosaurs as large, related species could be much smaller. It was only towards the end of the age of the dinosaurs that enormous species like _T. rex_ evolved. For example many early species in the group Tyrannosauroidea were roughtly human-sized.",
+                    "You can see from the tree that this group is actually nested quite deeply within the therapods: they are though to be more closely related to birds than they are to many other therapods."
+                ],
+                "media": [
+                    "//commons.wikimedia.org/wiki/File:Tyrannosauroidea_size_01.jpg"
                 ]
             }
         },
@@ -150,7 +180,7 @@
                 "visible-transition_in": true,
                 "title": "Archaeopteryx",
                 "window_text": [
-                    "...including the famous *Archaeopteryx*, which lived about 150 million years ago. Until relatively recently, *Archaeopteryx* played a starring role in the debate about the origin of birds, but as you can seen from the tree, we have now found many more fossil species which fill in the gradual transition from dinosaurs to birds."
+                    "...including the famous *Archaeopteryx*, which lived about 150 million years ago. Until relatively recently, *Archaeopteryx* played a starring role in the debate about the origin of birds, but as you can seen from all the surrounding leaves on the tree, we have now found many more fossil species which fill in the incremental transition from dinosaurs to birds."
                 ],
                 "media": [
                     "//commons.wikimedia.org/wiki/File:Archaeopteryx_fossil.jpg"
@@ -158,18 +188,45 @@
             }
         },
         {
-            "identifier": "Mammals",
-            "ott": "7377",
-            "qs_opts": "into_node=max",
+            "identifier": "Synapsids",
+            "ott": "189069",
+            "qs_opts": "into_node=max&highlight=fan:rgb(247,130,130)@=189069&highlight=fan:rgb(130,130,247)@=329457",
             "template_data": {
                 "visible-transition_in": true,
-                "title": "Mammals",
+                "title": "Synapsids",
+                "window_text": ["Moving away from dinosaurs, and back to the root of the amniote tree, the other major branch (which we coloured red) contains the **synapsids**. Early species such as the sail-backed *Dimetrodon* are often mistaken for dinosaurs, but actually they are significantly older, and much more closely related to our own ancestors. They are sometimes known as 'mammal-like reptiles'."],
+                "media": [
+                    "//upload.wikimedia.org/wikipedia/commons/thumb/5/51/Dimetrodon_grandis_3D_Model_Reconstruction.png/1024px-Dimetrodon_grandis_3D_Model_Reconstruction.png"
+                ]
+            }
+        },
+        {
+            "identifier": "Early mammals",
+            "ott": "2082668",
+            "qs_opts": "highlight=fan:rgb(247,130,130)@=189069",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Early mammals",
                 "window_text": [
-                    "We'll now move to the other major branch of the ammniotes, which is where we belong. Mammals are warm-blooded vertebrates that have hair or fur and produce milk to feed their young. They evolved from earlier 'mammal-like reptiles' during the late Triassic period, around 230 million years ago, while the dinosaurs were still thriving.",
-                    "At this time, mammals are throught to have been largely nocturnal, and hence relied less on vision and more on scent than many mammals do today. You'll see from the images of preserved fossils that many early mammal species are only known from their jaws or teeth, the parts that are most likely to be fossilised."
+                    "Around the time of the earliest dinosaurs, one branch of the mammal-like reptiles, the cynodonts, evolved into small shrew-like forms: the first mammals. Many are known just from jaws or teeth which, because they need to be hard to process food, stay relatively intact during fossilization. Fortunately, teeth can also be quite distinctive, hinting not only how an animal lived but also where it might belong on the evolutionary tree.",
+                    "Other fossil fragments can be much less informative, and often remain unclassified or uncertain. This means that many animal fossils are deliberately excluded from the OneZoom extinct tree."
                 ],
                 "media": [
                     "//commons.wikimedia.org/wiki/File:Megazostrodon,_Erythrotherium_%26_Morganucodon_teeth.png"
+                ]
+            }
+        },
+        {
+            "identifier": "Crown group mammals",
+            "ott": "7377",
+            "qs_opts": "into_node=max",
+            "transition_in":"fly",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Crown group mammals",
+                "window_text": [
+                    "The common ancestor of all living mammals is thought to have lived about 170 to 190 million years ago. As well as many fossil forms, its descendants include the monotremes (egg-laying mammals like the platypus and echidnas), marsupials (like kangaroos and koalas), and placental mammals (like us).",
+                    "The earliest species are thought to have been small, warm-blooded, and largely nocturnal. This may explain why today's mammals (including ourselves) tend to have a relatively good sense of smell, but poor eyesight compared to birds and lizards."
                 ]
             }
         },
@@ -180,7 +237,7 @@
                 "visible-transition_in": true,
                 "title": "Placental mammals",
                 "window_text": [
-                    "The placental mammals began to diverge from each other during the Cretaceous period, around 80-100 million years ago. But it was only with the extinction of the dinosaurs about 66 million years ago that they visibly started to diverge from their ancestral shrew-like form"
+                    "Placental mammals are a recent branch of the mammal family tree, diverging from each other during the Cretaceous period, around 80-100 million years ago. Initially similar to their shrew-like ancestors, it was only much later that they evolved into very different-looking forms. This 'adaptive radiation' seems to have been triggered by the extinction of the dinosaurs, around 66 million years ago."
                 ],
                 "media": [
                     "//commons.wikimedia.org/wiki/File:Eomaia_NT.jpg"   
