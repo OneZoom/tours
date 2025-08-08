@@ -28,6 +28,11 @@ argparser.add_argument(
     help='The web2py user to use for authentication (default: admin)',
     default='admin',
 )
+argparser.add_argument(
+    '--password', '-p',
+    help='The web2py password to use for authentication (default: None, meaning you will be prompted)',
+    default=None,
+)
 
 args = argparser.parse_args()
 
@@ -36,7 +41,11 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 # Collect password
-http_password = getpass.getpass(prompt='Password for %s: ' % args.user, stream=None)
+if args.password is not None:
+    http_password = args.password
+    print("Warning: using password from command line is insecure, ")
+else:
+    http_password = getpass.getpass(prompt='Password for %s: ' % args.user, stream=None)
 
 if not args.http_base.startswith('http'):
     raise ValueError("Usage: upload.py http://localhost:8000/ *.json")
