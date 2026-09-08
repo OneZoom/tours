@@ -73,11 +73,18 @@ for file_path in args.files:
     bytes = json.dumps(t).encode('utf-8')
     request.add_header('Content-Length', len(bytes))
 
-    with urllib.request.urlopen(request, bytes, context=ctx) as response:
-        if response.status != 200:
-            raise ValueError("Upload failed")
-        out = json.load(response)
-        print("Tour ID %d" % out['id'])
+    try:
+        with urllib.request.urlopen(request, bytes, context=ctx) as response:
+            if response.status != 200:
+                raise ValueError("Upload failed")
+            out = json.load(response)
+            print("Tour ID %d" % out['id'])
+    except urllib.error.HTTPError as e:
+        body = e.read().decode('utf-8', errors='replace')
+        print("Upload failed: %s" % e, file=sys.stderr)
+        if body:
+            print(body, file=sys.stderr)
+        sys.exit(1)
 
     request = urllib.request.Request("%s/tour/data.html/%s" % (
         args.http_base,
