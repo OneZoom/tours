@@ -1,0 +1,86 @@
+{
+    "title": "Reptiles",
+    "description": "Tour the main groups of living reptiles, including the feathered ones!",
+    "author": "OneZoom",
+    "image_url": "imgsrc:99:26840759",
+
+    "tourstop_shared": {
+        "fly_in_speed": 0.8,
+        "stop_wait": 15000
+    },
+    "tourstops": [
+        {
+            "identifier": "Squamates",
+            "ott": "35888",
+            "transition_in":"leap",
+            "qs_opts": "highlight=",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Squamates",
+                "window_text": "The biggest group of reptiles by far is the squamates (lizards and snakes) with over 10,000 species known to science."
+            }
+        },
+        {
+            "identifier": "Lepidosaurs",
+            "ott": "35881",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Lepidosaurs",
+                "window_text": "Zoom out a little and we can see the Squamates are part of a larger group called the Lepidosaurs. The Tuatara is the only living species of Lepidosaur that isn't a squamate."
+            }
+        },
+        {
+            "identifier": "Testudines",
+            "ott": "639666",
+            "transition_in":"fly_straight",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Testudines",
+                "window_text": "The next group of reptiles is the testudines.  This group contains tutles, tortoises and terrapins, all the reptiles with a shell."
+            }
+        },
+        {
+            "identifier": "Crocodilians",
+            "ott": "195672",
+            "transition_in":"fly_straight",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Crocodilians",
+                "window_text": "The final group of reptiles is the crocodilians. This group contains crocodiles, alligators and caimams."
+            }
+        },
+        {
+            "identifier": "Reptiles",
+            "ott": "639642",
+            "transition_in":"fly",
+            "stop_wait": 100,
+            "qs_opts": "highlight=",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "All Reptiles"
+            }
+        },
+        {
+            "identifier": "Reptiles2",
+            "ott": "639642",
+            "transition_in":"fly",
+            "qs_opts": "highlight=fan:rgb(130,130,247)@Sauropsida@Aves&highlight=fan:rgb(235,134,131)@Aves&highlight=path:rgb(235,134,131)@Archosauria@Aves",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Reptiles and Birds",
+                "window_text": "The three groups we normally call reptiles are highlighted in blue. We can see that it's not possible to define a single branch of the tree of life that includes all the reptiles unless we also include the birds highlighted in red."
+            }
+        },
+        {
+            "identifier": "Birds",
+            "ott": "81461",
+            "transition_in":"fly",
+            "qs_opts": "highlight=fan:rgb(130,130,247)@Sauropsida@Aves&highlight=fan:rgb(235,134,131)@Aves&highlight=path:rgb(235,134,131)@Archosauria@Aves",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Birds",
+                "window_text": "This is why, in a sense, the birds are feathered reptiles!  This tree only shows living (and very recently extinct) species so you won't find any dinosaurs. However, if we were to show them they would be in between the crocodilians and the birds."
+            }
+        }
+    ]
+}
