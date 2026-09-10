@@ -7,7 +7,7 @@ permissions:
   contents: read
 
 jobs:
-  preview:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -16,5 +16,5 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Preview tour JSON against OneZoom beta
+      - name: Validate tour JSON against OneZoom beta
         run: python upload.py https://beta.onezoom.org *.json --dry-run
