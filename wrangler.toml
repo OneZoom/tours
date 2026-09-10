@@ -1,0 +1,5 @@
+name = "onezoom-tours"
+compatibility_date = "2026-09-10"
+
+[assets]
+directory = "_site"
