@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+
+# This script creates a web2py auth user on the remote server for CI tour uploads,
+# then stores the username and password as GitHub Actions environment secrets.
+# It should be run by an admin on their local machine whenever the credentials
+# need to be created or rotated.
+
+set -euo pipefail
+
+if [[ $# -ne 3 ]]; then
+  echo "Usage: $0 SSH_USERNAME SSH_HOSTNAME GITHUB_ENV" >&2
+  echo "Example: $0 jared beta.onezoom.org beta" >&2
+  exit 1
+fi
+
+ssh_user=$1
+ssh_hostname=$2
+github_env=$3
+script_dir=$(cd "$(dirname "$0")" && pwd)
+upload_user="tour-uploader-${github_env}"
+
+if ! command -v gh &>/dev/null; then
+  echo "gh CLI is not installed. See https://cli.github.com/" >&2
+  exit 1
+fi
+
+if ! gh auth status &>/dev/null; then
+  echo "gh CLI is not authenticated. Run 'gh auth login' first." >&2
+  exit 1
+fi
+
+
+upload_password=$(python3 -c 'import secrets; print(secrets.token_urlsafe(32))')
+
+# reuse one authenticated connection to minimise password prompts
+control_path="/tmp/onezoom-tours-upload-setup-$$-%r@%h:%p"
+ssh_opts=(-o "Port=7777" -o "ControlMaster=auto" -o "ControlPath=${control_path}" -o "ControlPersist=60")
+trap 'ssh -O exit "${ssh_opts[@]}" "${ssh_user}@${ssh_hostname}" 2>/dev/null || true' EXIT
+
+scp "${ssh_opts[@]}" "${script_dir}/create_tour_uploader.py" "${ssh_user}@${ssh_hostname}:/tmp/create_tour_uploader.py"
+scp "${ssh_opts[@]}" "${script_dir}/setup_tour_uploader.sh" "${ssh_user}@${ssh_hostname}:/tmp/setup_tour_uploader.sh"
+ssh -t "${ssh_opts[@]}" "${ssh_user}@${ssh_hostname}" \
+  env \
+    SSH_HOSTNAME="$ssh_hostname" \
+    UPLOAD_USER="$upload_user" \
+    UPLOAD_PASSWORD="$upload_password" \
+    /bin/sh /tmp/setup_tour_uploader.sh
+
+gh api --silent --method PUT "/repos/OneZoom/tours/environments/${github_env}"
+printf '%s' "$upload_user" | gh secret set UPLOAD_USER --env "${github_env}" -R "github.com/OneZoom/tours"
+printf '%s' "$upload_password" | gh secret set UPLOAD_PASSWORD --env "${github_env}" -R "github.com/OneZoom/tours"
+
+echo "Set tours environment ${github_env} secrets UPLOAD_USER=${upload_user} and UPLOAD_PASSWORD."

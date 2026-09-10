@@ -1,0 +1,26 @@
+name: Upload tours to beta
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    environment: beta
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Upload tour JSON to OneZoom beta
+        env:
+          UPLOAD_USER: ${{ secrets.UPLOAD_USER }}
+          UPLOAD_PASSWORD: ${{ secrets.UPLOAD_PASSWORD }}
+        run: python upload.py https://beta.onezoom.org *.json --user "$UPLOAD_USER" --password "$UPLOAD_PASSWORD"

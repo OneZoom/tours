@@ -12,6 +12,12 @@ You can insert a single tour or multiple tours into a OneZoom instance with the 
 ./upload.py https://localhost:8000/ *.json
 ```
 
+You can also validate a tour (or several) without saving, which is how pull requests are validated:
+
+```
+./upload.py https://beta.onezoom.org *.json --dry-run
+```
+
 You can also use CURL directly:
 
 ```
