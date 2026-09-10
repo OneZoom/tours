@@ -1,0 +1,436 @@
+{
+    "title": "Sponges",
+    "description": "A tour of the earliest branch of animals, the sponges! Let's see what they can tell us about the origin of animals and their diversity.",
+    "author": "OneZoom",
+    "image_url": "https://commons.wikimedia.org/wiki/File:Sponges_in_Caribbean_Sea,_Cayman_Islands.jpg",
+
+    "tourstop_shared": {
+        "fly_in_speed": 0.8,
+        "stop_wait": 25000,
+        "qs_opts": "highlight=fan:rgb(130,130,247)@=67819"
+    },
+
+    "tourstops": [
+        {
+            "identifier": "Intro",
+            "ott": "67819",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Intro",
+                "window_text": [
+                    "Sponges are extremely important for biologists, as they are potentially the first group of animals to diversify. There are over 10,000 described species, ranging drastically in how they look, behave, and interact with other organisms. They may seem basic and boring upon first glance, but as we'll discover throughout this tour, they are fascinatingly complex in ways that we don't even fully understand yet. First, we will discuss how they are unique. Then, talk about what makes them animals. Then, we will talk about their diversity, and talk about some particularly cool examples. Finally, if you want to study sponges in the future, we will discuss avenues of study!"
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Sponges_in_Caribbean_Sea,_Cayman_Islands.jpg"]
+            }
+        },
+        {
+            "identifier": "Sharp exterior",
+            "ott": "67819",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Sharp exterior",
+                "window_text": [
+                    "Sponges grow little spikes called \"spicules.\" These can be made of many different materials, such as silica and calcium carbonate. Some will use spicules for defense, and others will grow one giant one protruding into the sediment, giving them stability and more height to filter-feed."
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Sponge-spicule_hg.jpg"]
+            }
+        },
+        {
+            "identifier": "Mesohyl",
+            "ott": "67819",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Mesohyl",
+                "window_text": [
+                    "Right below their relatively rigid exteriors, sponges have a jelly-like section called the mesohyl. This entire section is dominated by the sponge equivalent of stem cells. Unspecialized cells cover the mesohyl, drifting around just waiting for a purpose. They can transform into any of the other kinds of cell the sponge has, allowing them to have an amazing response system to practically any problem. If a sponge gets split into a bunch of different pieces, as long as those pieces contain the mesohyl, it is possible for them to regenerate into new sponges!"
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Porifera_cell_types_01.png"]
+            }
+        },
+        {
+            "identifier": "Feeding",
+            "ott": "67819",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Feeding",
+                "window_text": [
+                    "Since sponges cannot use photosynthesis to get energy, how do they get food to fuel themselves? Through filter-feeding! They have pores covering their bodies. These pores lead to chambers, which are lined with specialized cells called \"choanocytes.\" These cells have long tails, flagella, that they whip around in the water that is flowing through the sponge's pores. They then use a collar of little protrusions around their tails to capture food as it flows through the sponge. Then, this food is passed into the cell and distributed throughout the mesohyl."
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Choanocyte.jpg"]
+            }
+        },
+        {
+            "identifier": "Differences from other animals",
+            "ott": "691846",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Differences from other animals",
+                "window_text": [
+                    "Obviously, sponges have many traits that we don't normally connect with animals. They lack true tissues, organs, or organ systems. Thus, they lack systems for sensing and responding to the environment (nervous system), processing and disposing of waste (digestive system), circulating oxygen (circulatory system), etc. They do not even have consistent symmetry (although they have radial tendencies, they can do whatever they want, as you can see with the encrusting Amphimedon queenslandica shown in the picture). As we will see in our next section, they do so much that makes them remarkably \"animal\"y as well."
+                ],
+                "media": []
+            }
+        },
+        {
+            "identifier": "Choanocytes vs choanoflagellates",
+            "ott": "highlight=fan:rgb(130,130,247)@=67819&highlight=fan:rgb(130,130,247)@=202765",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Choanocytes vs choanoflagellates",
+                "window_text": [
+                    "One of the most visually appealing arguments for why sponges are the most basal animal group can be seen by analyzing their feeding cells. As mentioned earlier, they have taillike projections that are constantly waving in their pores, picking up food. These taillike projections create a distinct \"collar\" that appears very clearly when analyzing them under a microscope. This distinct collar is only found in nature in these guys and a unicellular group of organisms that aren't animals: the choanoflagellates. Choanoflagellates appear to be the closest non-animal group to animals; therefore, it would make sense for cells similar to choanoflagellate cells to appear in the most basal animals."
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Choanoflagellate_and_choanocyte.png"]
+            }
+        },
+        {
+            "identifier": "The first sponges",
+            "ott": "691846",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "The first sponges",
+                "window_text": [
+                    "Due to potentially being the first group of animals to branch off from the animal tree, you would expect sponges to be very old. The fossil record clearly shows this, as some of the oldest animal fossils by far are those of spongelike animals! Sponge fossils have been dated to over 500 million years old, with some particularly controversial examples, like Otavia antiqua, being even older (upwards of 700 million years old)."
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Otavia_antiqua_3D_reconstruction.jpg"]
+            }
+        },
+        {
+            "identifier": "That's an animal?",
+            "ott": "691846",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "That's an animal?",
+                "window_text": [
+                    "Yes, sponges are animals! There are some very intriguing ways in which they are more animal-like than you would expect. They can move, react to their environment, and produce sperm and egg cells."
+                ],
+                "media": []
+            }
+        },
+        {
+            "identifier": "Surprisingly animal attribute 1: moving",
+            "ott": "691846",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Surprisingly animal attribute 1: moving",
+                "window_text": [
+                    "Although they move at a speed too slow for us to observe, scientists have found tracks of their spicules--pieces of their stiff skeleton--following sponges. We have also watched them move through time-lapse photography of populations over time. This is thought to allow them to avoid unfavorable water conditions, or to reproduce in new environments. Their max speed seems to be a dizzying 4 millimeters per day. There are still many sponge species that are completely immobile, but the fact that some are capable of movement is a cool difference between them and plants."
+                ],
+                "media": []
+            }
+        },
+        {
+            "identifier": "Surprisingly animal attribute 2: sensing the environment",
+            "ott": "691846",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Surprisingly animal attribute 2: sensing the environment",
+                "window_text": [
+                    "Even with no eyes, brain, or literally anything remotely close to a nervous system, sponges are able to sense their environment. They seemingly do this while using their flagella to filter water through the water current. They have been seen doing the sponge equivalent of sneezing, or closing their pores, when introduced to harmful debris."
+                ],
+                "media": []
+            }
+        },
+        {
+            "identifier": "Surprisingly animal attribute 3: sexual reproduction",
+            "ott": "691846",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Surprisingly animal attribute 3: sexual reproduction",
+                "window_text": [
+                    "Most sponges are hermaphrodites, with some species switching between producing sperm and egg cells depending on what they sense in the water column. Many species only produce one or the other at a time to prevent self-fertilization. One thing that is interesting is that they can also reproduce asexually in a few different ways, and their environmental conditions can change which reproduction method they prefer. The three ways they can produce asexually are through budding, gemmule formation, and fragmentation."
+                ],
+                "media": []
+            }
+        },
+        {
+            "identifier": "Budding",
+            "ott": "691846",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Budding",
+                "window_text": [
+                    "Budding is a process through which a sponge grows a mini copy of itself directly from its body. Eventually, it will split off and form a genetically identical copy of its parent."
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Large_sponge_group_(50670094043).jpg"]
+            }
+        },
+        {
+            "identifier": "Gemmules",
+            "ott": "691846",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Gemmules",
+                "window_text": [
+                    "Some species can also grow their offspring internally, based on the conditions of the environment. These internal balls of sponge are called gemmules, and they are developed with a protective \"shell\" around them, that they can emerge from when conditions are favorable to develop. These are most commonly associated with freshwater sponges."
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Gemmules_a2.jpg"]
+            }
+        },
+        {
+            "identifier": "Fragmentation",
+            "ott": "691846",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Fragmentation",
+                "window_text": [
+                    "Sponges are masters of regeneration. Thus, when a hungry fish decides to nibble on one, the multiple pieces that might break off can all regenerate into a fully separate organism. This is what fragmentation is: forming new organisms by breaking an earlier one in half. They can do this due to their unspecialized cells in their mesohyl. They can form new spicules, form new choanocytes, etc. until a new organism is formed."
+                ],
+                "media": []
+            }
+        },
+        {
+            "identifier": "Diversity",
+            "ott": "highlight=path:rgb(247,245,95)@=691846@=161887&highlight=fan:rgb(247,245,95)@=161887&highlight=path:rgb(208,83,245)@=691846@=519088&highlight=fan:rgb(208,83,245)@=519088&highlight=path:rgb(83,196,245)@=691846@=1007159&highlight=fan:rgb(83,196,245)@=1007159&highlight=path:rgb(245,100,83)@=691846@=67816&highlight=fan:rgb(245,100,83)@=67816",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Diversity",
+                "window_text": [
+                    "There are around 10,000 described sponge species (7,427 of which are explorable in OneZoom)! They are divided into four classes, most conveniently separated based on what their spicules are made of and how they're shaped. Hexactinellida, also known as glass sponges, are made of glass (silica, to be precise). They are also known for having six-way spicules. Demospongiae, the most common group by far, have silica spicules, but they also have spongin fibers, which strengthen their insides. Calcarea is known for having calcium carbonate spicules. Finally, the Homoscleromorpha are complicated. For a while, they were considered to be members of Demospongiae, as they also contain silica spicules; however, their genetics painted a different story. They are actually more closely related to Calcarea than they are to Demospongiae. Upon closer glance, they have many fundamental differences from Demospongiae, such as having much smaller spicules and preferring different environments (areas with lots of shade)."
+                ],
+                "media": []
+            }
+        },
+        {
+            "identifier": "Glass sponges (Hexactinellida)",
+            "ott": "highlight=path:rgb(130,130,247)@=691846@=1007159&highlight=fan:rgb(130,130,247)@=1007159",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Glass sponges (Hexactinellida)",
+                "window_text": [
+                    "As one might guess, glass sponges have an outer skeleton made of silica--what constitutes glass. Their silica spicules combine to form intricate lattices, making them especially rigid in comparison to other sponges. They can respond to their environment much more quickly than sponges in the other sponge clades, as species have been shown to send electrical signals throughout their bodies to alert the rest of the body to dangers. They are considered to be among the oldest animals on the planet."
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Sclerothamnus_D2_Explorer_1.jpg"]
+            }
+        },
+        {
+            "identifier": "Interesting species 1: Monorhaphis chuni",
+            "ott": "1007159",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Interesting species 1: Monorhaphis chuni",
+                "window_text": [
+                    "Monorhaphis chuni is notable for many reasons. Firstly, notice that giant \"stalk\" it's sitting on. That's a single spicule that's grown to massive lengths. They can grow up to 3 meters (9.8 ft) long, and they are used to anchor the sponge to the ocean floor. Also, they can be incredibly, absurdly, old. A 2012 study was able to analyze a specimen's giant spicule by measuring ratios of different isotopes in different rings of the spicule. These ratios are strongly correlated with temperature, so they could then figure out the temperature of the water at different periods of the specimen's life. From this information, they estimated it to be 11,000 years old (+ or - 3,000 years)! The ability to analyze large spicules like tree rings is one interesting element that connects sponges with plants."
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Basal_spicule_of_the_deep-sea_glass_sponge_Monorhaphis_chuni_(cropped).jpg"]
+            }
+        },
+        {
+            "identifier": "Interesting species 2: Venus' flower basket (Euplectella aspergillum)",
+            "ott": "164229",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Interesting species 2: Venus' flower basket (Euplectella aspergillum)",
+                "window_text": [
+                    "Venus' flower baskets are known for their hypnotizingly beautiful looks. This is due to the lattice structure their spicules form, which makes them insanely strong. As a matter of fact, they are sturdier (pound for pound) than even man-made materials like steel! Along with this, they are a cool example of how other species work with sponges to benefit both of them. These sponges are very common homes of glass sponge shrimps, named specifically for their connection to these sponges. The glass sponge shrimps get shelter and protection from the sponge, and in exchange, they keep the inside of the sponge nice and clean. Sponges, due to their potential to provide shelter, are commonly involved in these sorts of mutualistic relationships."
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Euplectella_aspergillum_Okeanos.jpg"]
+            }
+        },
+        {
+            "identifier": "Demospongiae",
+            "ott": "highlight=path:rgb(130,130,247)@=691846@=67816&highlight=fan:rgb(130,130,247)@=67816",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Demospongiae (+ Homoscleromorpha)",
+                "window_text": [
+                    "Demosponges are by far the most common class of sponges. Over 90% of all sponges are demosponges. They are distinguished from glass sponges due to being reinforced by spongin. They can also be made of silica; however, when they are, the silica is not structured in the same way as that of glass sponges. They are incredibly diverse, with some turning to absurd lifestyles, including some carnivorous sponges. Yes, these immobile (no carnivorous sponges we have found also move in the way other sponges we've talked about do) creatures can hunt food. Let's look at some interesting examples of carnivorous sponges."
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Sponges_in_Caribbean_Sea,_Cayman_Islands.jpg"]
+            }
+        },
+        {
+            "identifier": "Carnivorous Sponges",
+            "ott": "4939309",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Carnivorous Sponges",
+                "window_text": [
+                    "Carnivorous sponges are interesting because they are carnivores without literally any organs or organ systems. How do they do it? It's mostly due to their spicules. Instead of having straight spicules, theirs are slightly curved, making them look more like a fishing hook. This causes small crustaceans to be trapped once they bump into them. Due to this crazy lifestyle, carnivorous sponges tend to look really wacky in comparison to others. The following pictures are of the lyre sponge (Chondrocladia lyra) and ping-pong ball sponges (Chondrocladia lampadiglobus)!"
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Carnivorous_sponge_Puerto_Rico_April_2015.png"]
+            }
+        },
+        {
+            "identifier": "Interesting species 3: lyre sponge (Chondrocladia lyra)",
+            "ott": "4939309",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Interesting species 3: lyre sponge (Chondrocladia lyra)",
+                "window_text": [
+                    ""
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Esponja-harpa.jpg"]
+            }
+        },
+        {
+            "identifier": "Interesting species 4: ping-pong ball sponges (Chondrocladia lampadiglobus)",
+            "ott": "4939309",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Interesting species 4: ping-pong ball sponges (Chondrocladia lampadiglobus)",
+                "window_text": [
+                    ""
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Chondrocladia_lampadiglobus.jpg"]
+            }
+        },
+        {
+            "identifier": "Interesting species 5: giant barrel sponge (Xestospongia muta)",
+            "ott": "880230",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Interesting species 5: giant barrel sponge (Xestospongia muta)",
+                "window_text": [
+                    "Another thing that some demosponges are known for are being very massive. The giant barrel sponge, for example, can be six feet in diameter! We have found even larger sponge species as well. At the Papahānaumokuākea Marine National Monument, a glass sponge species was found to be 12 feet long, 7 feet wide, and 5 feet tall. It was described as \"minivan-sized\"."
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:PawlikUW2.jpg"]
+            }
+        },
+        {
+            "identifier": "Homoscleromorpha",
+            "ott": "highlight=path:rgb(130,130,247)@=691846@=519088&highlight=fan:rgb(130,130,247)@=519088",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Homoscleromorpha",
+                "window_text": [
+                    "Homoscleromorpha was only relatively recently divided into its own class. They can contain both spongin and silica. Although they share common biological elements to demosponges, they are more closely related to Calcarea than they are to any other group. They are generally encrusting in form, and have even smaller spicules than the other sponge orders. They are commonly found in caves or areas with high levels of shade."
+                ],
+                "media": [""]
+            }
+        },
+        {
+            "identifier": "Calcarea",
+            "ott": "highlight=path:rgb(130,130,247)@=691846@=161887&highlight=fan:rgb(130,130,247)@=161887",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Calcarea",
+                "window_text": [
+                    "Calcareous sponges are known for having calcium carbonate spicules."
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Leucetta_chagosensis_Voavah.JPG"]
+            }
+        },
+        {
+            "identifier": "Interesting species 6: lemon sponge (Leucetta chagosensis)",
+            "ott": "918964",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Interesting species 6: lemon sponge (Leucetta chagosensis)",
+                "window_text": [
+                    "Lemon sponges show that sponges can have very striking coloration as well! Their bright yellowness makes them impossible to miss while diving. Interestingly, they are also very commonly in an \"encrusting\" structure. Instead of growing in a tubular shape, they are very commonly found flat, spread out along the sea floor. Sponges can develop in either of these two ways depending on the circumstances, another attribute of their complete lack of symmetry or a rigid body plan."
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Leucetta_chagosensis_Voavah.JPG"]
+            }
+        },
+        {
+            "identifier": "Sponges and the world",
+            "ott": "691846",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Sponges and the world",
+                "window_text": [
+                    "We now know about basic sponge anatomy and their diversity, but they are also extremely important due to how they interact with the world around them. We will now dive into really cool ways in which they interact with other organisms."
+                ],
+                "media": []
+            }
+        },
+        {
+            "identifier": "Sponge crabs",
+            "ott": "32429",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Sponge crabs",
+                "window_text": [
+                    "Not only is the central area of a sponge the home for some animals, but some animals even use the entire sponge as a home. Sponge crabs are a diverse group of crabs that avoid predation by literally uprooting a sponge, and using adapted hands to grasp it as they wander around. Since sponges attract less predators than the crabs, they use these sponges to deter predators. The genus OneZoom is showing you now, Dromia, has multiple sponge crabs that have evolved to use sponges in this manner."
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Sponge_Crab_(Dromia_sp.)_(6082716840).jpg"]
+            }
+        },
+        {
+            "identifier": "Sponge reefs (cloud sponge pic)",
+            "ott": "700652",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Sponge reefs (cloud sponge pic)",
+                "window_text": [
+                    "As mentioned earlier, glass sponge species can offer a home for small crustaceans. In some cases, they have formed entire reefs. As of right now, we have only found sponge reefs off of the western coast of Canada, but these reefs support a plethora of diverse life. From crabs to nudibranchs to flatfish to rockfish, they have entire intricate ecosystems that are priceless to their region. The cloud sponge, the species you are looking at on screen now, is the primary builder of the reefs we've found."
+                ],
+                "media": ["https://commons.wikimedia.org/wiki/File:Aphrocallistes_vastus.jpg"]
+            }
+        },
+        {
+            "identifier": "Filtration potential",
+            "ott": "691846",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Filtration potential",
+                "window_text": [
+                    "Along with being an ecosystem builder, sponges are insanely valuable in filtering the ecosystems they are a part of. They can filter up to 900 times their body volume every single hour. They do this 24/7, constantly cleaning whatever environment they are a part of. Thus, they are some of the most powerful cleaners in any ecosystem they are a part of."
+                ],
+                "media": ["https://www.youtube.com/watch?v=pTZ211cIjX8"]
+            }
+        },
+        {
+            "identifier": "The value of sponges",
+            "ott": "691846",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "The value of sponges",
+                "window_text": [
+                    "Sponges are way more intricate, valuable, and diverse than pretty much anyone realizes upon first glance. They are homes for small organisms, builders of entire ecosystems, and master filterers. Along with this, they have a bunch of fascinating lifestyles and abilities. They can detect their environment, move, reproduce sexually, be carnivorous, and regenerate from almost total destruction. They manage to do all of this without any tissues, organs, or organ systems. This reveals an important element of biology: every creature around us is highly optimized to fulfill specific niches in its environment. No creature is useless or lesser than another. All are crucial for the ecosystems in which they have evolved. Sponges also have a lot of potential for human use. For example, they are oddly resistant to cancers, and some cancer medications (Cytarabine and Gemcitabine) have been isolated in or derived from sponges. Thus, they are extremely useful medicinally as well."
+                ],
+                "media": []
+            }
+        },
+        {
+            "identifier": "Future research directions",
+            "ott": "691846",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Future research directions",
+                "window_text": [
+                    "If you're suddenly fascinated by sponges and want to contribute to research on them, there are many things we do not fully grasp about them yet. They are an unfortunately very understudied group, which has led to debate involving even the most fundamental statements about them.",
+                    "There is still a major argument about whether they are the first animals or not, as some research has indicated that comb jellies are actually more basal than they are. You could be the one to resolve the debate once and for all!",
+                    "Additionally, more work needs to be done on identifying and describing new species. The largest sponge ever discovered, the one at the Papahānaumokuākea Marine National Monument, has literally not been formally described yet. This shows that there are so many undescribed and underresearched sponges that have been discovered.",
+                    "Sponges are known to accumulate massive amounts of extremely strange trace elements, such as molybdenum, but the methods through which they do this, or why, are largely unknown.",
+                    "Sponges are oddly resistant to cancer in comparison to most other animal groups, and we do not have a complete picture of why. We have isolated specific compounds, such as spongothymidine and spongouridine, but the full picture is not resolved.",
+                    "Sponges are not just stationary, simple organisms. They are ecosystem builders and cancer fighters. They are biologically resilient to an extreme."
+                ],
+                "media": []
+            }
+        }
+    ]
+}
