@@ -1,109 +1,151 @@
 {
-    "title": "Mammals",
-    "description": "A tour of mammals divided into their five main groups",
-    "author": "OneZoom Team",
-    "image_url": "imgsrc:3:-27123592",
-
-    "tourstop_shared": {
-        "fly_in_speed": 0.8,
-        "stop_wait": 25000,
-        "qs_opts": "highlight=fan:rgb(130,130,247)@=962396&highlight=path:rgb(130,130,247)@=244265@=962396&highlight=fan:rgb(126,198,199)@=746703&highlight=path:rgb(126,198,199)@_ancestor=746703=847764@=746703&highlight=fan:rgb(235,134,131)@=847764&highlight=path:rgb(235,134,131)@_ancestor=746703=847764@=847764&highlight=fan:rgb(162,252,144)@Boreoeutheria&highlight=path:rgb(162,252,144)@=683263@Boreoeutheria&highlight=fan:rgb(187,105,195)@=16033&highlight=path:rgb(187,105,195)@=229558@=16033"
+  "identifier": "mammals",
+  "title": "Mammals",
+  "description": "A tour of mammals divided into their fifty main groups",
+  "author": "OneZoom Team",
+  "license": "all-rights-reserved",
+  "image_url": "imgsrc:3:-27123592",
+  "tourstops": [
+    {
+      "identifier": "Mammals",
+      "template_data": {
+        "title": "Mammals tour",
+        "visible-transition_in": true,
+        "window_text": [
+          "Mammals can be divided into five main groups, based on their evolutionary history. These are the monotremes, the marsupials, and 3 groups of placental mammals.",
+          "We’ve highlighted these branches in different colours so you know what's coming, but we hope you’ll still find some surprises!"
+        ]
+      },
+      "ott": "244265",
+      "qs_opts": "?highlight=fan:#8282f7@=962396&highlight=path:#8282f7@=244265@=962396&highlight=fan:#7ec6c7@=746703&highlight=path:#7ec6c7@_ancestor=746703=847764@=746703&highlight=fan:#eb8683@=847764&highlight=path:#eb8683@_ancestor=746703=847764@=847764&highlight=fan:#a2fc90@Boreoeutheria&highlight=path:#a2fc90@=683263@Boreoeutheria&highlight=fan:#bb69c3@=16033&highlight=path:#bb69c3@=229558@=16033",
+      "transition_in": "leap",
+      "fly_in_speed": 0.8,
+      "stop_wait": 25000
     },
-    "tourstops": [
-        {
-            "identifier": "Mammals",
-            "ott": "244265",
-            "transition_in":"leap",
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Mammals tour",
-            "window_text": ["Mammals can be divided into five main groups, based on their evolutionary history. These are the monotremes, the marsupials, and 3 groups of placental mammals.","We’ve highlighted these branches in different colours so you know what's coming, but we hope you’ll still find some surprises!"]
-            }
-        },
-        {
-            "identifier": "Platypus",
-            "ott": "962377",
-            "transition_in":"leap",
-            "stop_wait": 30000,
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Platypus ",
-                "media": [
-                    "https://www.youtube.com/embed/b-gEx-yFz1c?si=o5QZA0R1fgIX2Aec&amp;clip=Ugkx6aA9qw4ZVYkxtanrCLOaIF_Qy4BvASoI&amp;clipt=EObsBRiY8wc"
-                ]
-            }
-        },
-        {
-            "identifier": "Monotremes",
-            "ott": "962396",
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Monotremes",
-                "window_text": "The platypus and the echidnas are together known as monotremes. Monotremes are the first of our five groups. Unlike all other mammals, they lay eggs, rather than give birth to live young. Here are some more fun facts about them.",
-                "media": [
-                    "mammals/platypus_fun_facts.jpeg"
-                ]
-            }
-        },
-        {
-            "identifier": "Marsupials",
-            "ott": "16033",
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Marsupials",
-                "window_text": ["The next group is the marsupials: around 300 species.","Although marsupials give birth to live young, they lack a true placenta, so the young, called joeys, are born very early (after 10.7 - 38 days, depending on the species).","Newborn joeys are blind, and crawl to their mother's pouch, which acts like an external womb. In the pouch, the tiny joey drinks its mother's milk until it's mature enough to feed for itself."],
-                "media": [
-                    "https://commons.wikimedia.org/wiki/File:Forester_kangaroo_(Macropus_giganteus_tasmaniensis)_female_with_joey_Esk_Valley_2.jpg"
-                ]
-            }
-        },
-        {
-            "identifier": "Tasmanian devil",
-            "ott": "948469",
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Tasmanian devil",
-                "window_text": ["The Tasmanian devil is the largest marsupial carnivore since the extinction of the Tasmanian tiger in 1936.","Sadly, Tasmanian devils are plagued by devil facial tumour disease. This is an unusual form of cancer that can be trasmitted as an infection from one devil to another.","Devil facial tumour disease is the biggest reason why the Tasmanian devil species is at risk of extinction, although road traffic and occasionally domestic dogs also have an impact."],
-                "media": [
-                    "mammals/Tasmanian_Devil.jpg"
-                ]
-            }
-        },
-        {
-            "identifier": "Placental mammals",
-            "ott": "683263",
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Placental mammals",
-                "window_text": 
-                "The vast majority of mammal species, and all three of our remaining groups, are the placental mammals. Unlike marsupials, placental mammals develop for much longer inside the womb. This is because they are nourished by their mother through a placenta."
-            }
-        },
-        {
-            "identifier": "Newborn placental mammals",
-            "ott": "702522",
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Newborn placental mammals",
-                "window_text": "For example the young of Thompson's Gazelle can be on their feet within minutes of birth. This means they are much less vulnerable to predators.",
-                "media": [
-                    "https://www.youtube.com/embed/w4421AI_7CA?si=LQSeUthgNZVpvq1d"
-                ]
-            }
-        },
-        {
-            "identifier": "Why three groups?",
-            "ott": "683263",
-            "stop_wait": 120000,
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Why three groups?",
-                "window_text": ["Why do the placental mammals fall into 3 natural groups? There's a fascinating answer, and it's about how continents moved in the past.",
-                { "visible-active_wait": true, "text": "The three groups are associated with South America, Africa and the Northern hemisphere. Scientists have found that the groups started to diverge around 90 million years ago, at the same time as these landmasses were drifting apart. Below you can see what our planet looked like at that time, and the regions where the three groups originated." }],
-                "media": [
-                    { "visible-active_wait": true, "url": "mammals/continents.jpeg" }
-                ]
-            }
-        }
-    ]
+    {
+      "identifier": "Platypus",
+      "template_data": {
+        "title": "Platypus ",
+        "visible-transition_in": true,
+        "media": [
+          "https://www.youtube.com/embed/b-gEx-yFz1c"
+        ]
+      },
+      "ott": "962377",
+      "qs_opts": "?highlight=fan:#8282f7@=962396&highlight=path:#8282f7@=244265@=962396&highlight=fan:#7ec6c7@=746703&highlight=path:#7ec6c7@_ancestor=746703=847764@=746703&highlight=fan:#eb8683@=847764&highlight=path:#eb8683@_ancestor=746703=847764@=847764&highlight=fan:#a2fc90@Boreoeutheria&highlight=path:#a2fc90@=683263@Boreoeutheria&highlight=fan:#bb69c3@=16033&highlight=path:#bb69c3@=229558@=16033",
+      "transition_in": "leap",
+      "fly_in_speed": 0.8,
+      "stop_wait": 30000
+    },
+    {
+      "identifier": "Monotremes",
+      "template_data": {
+        "title": "Monotremes",
+        "visible-transition_in": true,
+        "window_text": [
+          "The platypus and the echidnas are together known as monotremes. Monotremes are the first of our five groups. Unlike all other mammals, they lay eggs, rather than give birth to live young. Here are some more fun facts about them."
+        ],
+        "media": [
+          "mammals/platypus_fun_facts.jpeg"
+        ]
+      },
+      "ott": "962396",
+      "qs_opts": "?highlight=fan:#8282f7@=962396&highlight=path:#8282f7@=244265@=962396&highlight=fan:#7ec6c7@=746703&highlight=path:#7ec6c7@_ancestor=746703=847764@=746703&highlight=fan:#eb8683@=847764&highlight=path:#eb8683@_ancestor=746703=847764@=847764&highlight=fan:#a2fc90@Boreoeutheria&highlight=path:#a2fc90@=683263@Boreoeutheria&highlight=fan:#bb69c3@=16033&highlight=path:#bb69c3@=229558@=16033",
+      "fly_in_speed": 0.8,
+      "stop_wait": 25000
+    },
+    {
+      "identifier": "Marsupials",
+      "template_data": {
+        "title": "Marsupials",
+        "visible-transition_in": true,
+        "window_text": [
+          "The next group is the marsupials: around 300 species.",
+          "Although marsupials give birth to live young, they lack a true placenta, so the young, called joeys, are born very early (after 10.7 - 38 days, depending on the species).",
+          "Newborn joeys are blind, and crawl to their mother's pouch, which acts like an external womb. In the pouch, the tiny joey drinks its mother's milk until it's mature enough to feed for itself."
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Forester_kangaroo_(Macropus_giganteus_tasmaniensis)_female_with_joey_Esk_Valley_2.jpg"
+        ]
+      },
+      "ott": "16033",
+      "qs_opts": "?highlight=fan:#8282f7@=962396&highlight=path:#8282f7@=244265@=962396&highlight=fan:#7ec6c7@=746703&highlight=path:#7ec6c7@_ancestor=746703=847764@=746703&highlight=fan:#eb8683@=847764&highlight=path:#eb8683@_ancestor=746703=847764@=847764&highlight=fan:#a2fc90@Boreoeutheria&highlight=path:#a2fc90@=683263@Boreoeutheria&highlight=fan:#bb69c3@=16033&highlight=path:#bb69c3@=229558@=16033",
+      "fly_in_speed": 0.8,
+      "stop_wait": 25000
+    },
+    {
+      "identifier": "Tasmanian devil",
+      "template_data": {
+        "title": "Tasmanian devil",
+        "visible-transition_in": true,
+        "window_text": [
+          "The Tasmanian devil is the largest marsupial carnivore since the extinction of the Tasmanian tiger in 1936.",
+          "Sadly, Tasmanian devils are plagued by devil facial tumour disease. This is an unusual form of cancer that can be trasmitted as an infection from one devil to another.",
+          "Devil facial tumour disease is the biggest reason why the Tasmanian devil species is at risk of extinction, although road traffic and occasionally domestic dogs also have an impact."
+        ],
+        "media": [
+          "mammals/Tasmanian_Devil.jpg"
+        ]
+      },
+      "ott": "948469",
+      "qs_opts": "?highlight=fan:#8282f7@=962396&highlight=path:#8282f7@=244265@=962396&highlight=fan:#7ec6c7@=746703&highlight=path:#7ec6c7@_ancestor=746703=847764@=746703&highlight=fan:#eb8683@=847764&highlight=path:#eb8683@_ancestor=746703=847764@=847764&highlight=fan:#a2fc90@Boreoeutheria&highlight=path:#a2fc90@=683263@Boreoeutheria&highlight=fan:#bb69c3@=16033&highlight=path:#bb69c3@=229558@=16033",
+      "fly_in_speed": 0.8,
+      "stop_wait": 25000
+    },
+    {
+      "identifier": "Placental mammals",
+      "template_data": {
+        "title": "Placental mammals",
+        "visible-transition_in": true,
+        "window_text": [
+          "The vast majority of mammal species, and all three of our remaining groups, are the placental mammals. Unlike marsupials, placental mammals develop for much longer inside the womb. This is because they are nourished by their mother through a placenta."
+        ]
+      },
+      "ott": "683263",
+      "qs_opts": "?highlight=fan:#8282f7@=962396&highlight=path:#8282f7@=244265@=962396&highlight=fan:#7ec6c7@=746703&highlight=path:#7ec6c7@_ancestor=746703=847764@=746703&highlight=fan:#eb8683@=847764&highlight=path:#eb8683@_ancestor=746703=847764@=847764&highlight=fan:#a2fc90@Boreoeutheria&highlight=path:#a2fc90@=683263@Boreoeutheria&highlight=fan:#bb69c3@=16033&highlight=path:#bb69c3@=229558@=16033",
+      "fly_in_speed": 0.8,
+      "stop_wait": 25000
+    },
+    {
+      "identifier": "Newborn placental mammals",
+      "template_data": {
+        "title": "Newborn placental mammals",
+        "visible-transition_in": true,
+        "window_text": [
+          "For example the young of Thompson's Gazelle can be on their feet within minutes of birth. This means they are much less vulnerable to predators."
+        ],
+        "media": [
+          "https://www.youtube.com/embed/w4421AI_7CA"
+        ]
+      },
+      "ott": "702522",
+      "qs_opts": "?highlight=fan:#8282f7@=962396&highlight=path:#8282f7@=244265@=962396&highlight=fan:#7ec6c7@=746703&highlight=path:#7ec6c7@_ancestor=746703=847764@=746703&highlight=fan:#eb8683@=847764&highlight=path:#eb8683@_ancestor=746703=847764@=847764&highlight=fan:#a2fc90@Boreoeutheria&highlight=path:#a2fc90@=683263@Boreoeutheria&highlight=fan:#bb69c3@=16033&highlight=path:#bb69c3@=229558@=16033",
+      "fly_in_speed": 0.8,
+      "stop_wait": 25000
+    },
+    {
+      "identifier": "Why three groups?",
+      "template_data": {
+        "title": "Why three groups?",
+        "visible-transition_in": true,
+        "window_text": [
+          "Why do the placental mammals fall into 3 natural groups? There's a fascinating answer, and it's about how continents moved in the past.",
+          {
+            "text": "The three groups are associated with South America, Africa and the Northern hemisphere. Scientists have found that the groups started to diverge around 90 million years ago, at the same time as these landmasses were drifting apart. Below you can see what our planet looked like at that time, and the regions where the three groups originated.",
+            "visible-active_wait": true
+          }
+        ],
+        "media": [
+          {
+            "url": "mammals/continents.jpeg",
+            "visible-active_wait": true
+          }
+        ]
+      },
+      "ott": "683263",
+      "qs_opts": "?highlight=fan:#8282f7@=962396&highlight=path:#8282f7@=244265@=962396&highlight=fan:#7ec6c7@=746703&highlight=path:#7ec6c7@_ancestor=746703=847764@=746703&highlight=fan:#eb8683@=847764&highlight=path:#eb8683@_ancestor=746703=847764@=847764&highlight=fan:#a2fc90@Boreoeutheria&highlight=path:#a2fc90@=683263@Boreoeutheria&highlight=fan:#bb69c3@=16033&highlight=path:#bb69c3@=229558@=16033",
+      "fly_in_speed": 0.8,
+      "stop_wait": 120000
+    }
+  ]
 }
