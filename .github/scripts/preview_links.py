@@ -35,8 +35,9 @@ def worker_from_summary(summary: str) -> str | None:
 def comment_body(worker: str, changed_tours: list[str]) -> str | None:
     if not changed_tours:
         return None
-    lines = [f"- [`{t}`]({LIFE_URL}/{worker}/{t})" for t in changed_tours]
-    return "\n".join([MARKER, "### Tour previews", ""] + lines) + "\n"
+    urls = [f"{LIFE_URL}/{worker}/{t}" for t in changed_tours]
+    lines = [f"- {url}" for url in urls]
+    return "\n".join([MARKER, "### Tour Preview Links", "OneZoom team members can preview the changed tours by clicking the links below (requires login)."] + lines) + "\n"
 
 
 def api(path: str, method: str = "GET", body: dict | None = None) -> Any:
