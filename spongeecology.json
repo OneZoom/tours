@@ -1,0 +1,130 @@
+{
+  "identifier": "spongeecology",
+  "title": "Sponge Ecology",
+  "description": "A tour into sponges and their role for the rest of the world!",
+  "author": "Josh Sensiba",
+  "license": "cc-by-4.0",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Shrimp_on_glass_sponge_Mona_Passage_15_April_2015.png",
+  "tourstops": [
+    {
+      "identifier": "Sponges and the world",
+      "template_data": {
+        "title": "Sponges and the World",
+        "window_text": [
+          "Sponges may look like blobs glued to rocks, but they are actually some of the most important organisms in the entire ocean! Entire ecosystems are built on their backs (even though they don't even have backs). They are master filterers, homebuilders, and cancer fighters. Let's learn more about the complex relationships they have with the world!"
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Aplysina_archeri_(Stove-pipe_Sponge-pink_variation).jpg"
+        ]
+      },
+      "ott": "@Porifera=67819",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Filtration potential",
+      "template_data": {
+        "title": "Filtration Potential",
+        "window_text": [
+          "Sponges pump water through their bodies, filtering out tiny food particles from the water column. Thus, they are one of the ocean's best filtration systems. They can filter up to 900 times their body volume every single hour. If a human were able to process this much water, they would be able to fill up the average swimming pool to the brim once per hour. It would take under 2 days for that one person to filter an entire Olympic swimming pool!"
+        ]
+      },
+      "ott": "@Porifera=67819",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "stop_1",
+      "template_data": {
+        "title": "Filter Video",
+        "window_text": [
+          "This video shows a group of brown tube sponges being insane filterers! You can also see them in OneZoom."
+        ],
+        "media": [
+          "https://www.youtube.com/embed/pTZ211cIjX8?start=51&end=71"
+        ]
+      },
+      "ott": "@Agelas_conifera=298914"
+    },
+    {
+      "identifier": "Sponge microbiome",
+      "template_data": {
+        "title": "Sponge Microbiome",
+        "window_text": [
+          "In some cases, over 30% of the total mass of a sponge is just microbes that live on or inside of it. They are a home for all kinds of bacteria, viruses, and archaea. These microbes help sponges break down and process food, provide the sponge with carbon and nitrogen, and prevent dangerous substances from entering the sponge. They are common homes for all kinds of organisms, even some multicellular ones."
+        ]
+      },
+      "ott": "@Porifera=67819",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Sponge homes",
+      "template_data": {
+        "title": "Sponge Homes",
+        "window_text": [
+          "Sponges grow tiny defensive spikes called spicules. They can also produce toxic chemicals to scare off predators. These things combine to make them a fortress for smaller animals, such as shrimp, worms, and brittle stars. They are prime real estate for vulnerable ocean critters. In the picture below, you can see a shrimp species giving the camera a tour of its glass sponge home. On OneZoom, you can now see paths from the glass sponge in the picture, to a family of shrimp that live inside glass sponges. Feel free to play with OneZoom and trace the line from glass sponges to glass sponge shrimp, then hit \"Resume\" on the tour."
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Shrimp_on_glass_sponge_Mona_Passage_15_April_2015.png"
+        ]
+      },
+      "ott": "@Euplectella_aspergillum=164229",
+      "qs_opts": "?highlight=path:#8282f7@Metazoa=691846@Euplectella_aspergillum=164229&highlight=path:#8282f7@Metazoa=691846@Spongicolidae=944612",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Sponge crabs",
+      "template_data": {
+        "title": "Sponge Crabs",
+        "window_text": [
+          "Sponges also make great hats, apparently! Sponge crabs are a diverse group of crabs that literally uproot and wear sponges for protection. This is beneficial to the sponge as well, as it gets free transportation all over the place. The group you see on OneZoom now, Dromia, has some of these very dapper crabs."
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Sponge_Crab_(Dromia_sp.)_(6082716840).jpg"
+        ]
+      },
+      "ott": "@Dromia=32429",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Sponge reefs",
+      "template_data": {
+        "title": "Sponge Reefs",
+        "window_text": [
+          "You've heard of coral reefs, but have you heard of sponge reefs? Sponge reefs have only been found off the western coast of North America, and are found in much colder and deeper environments than coral reefs. They also support completely different animals, such as crabs, nudibranchs, flatfish, and rockfish. The cloud sponge, the species you're seeing on OneZoom, and in the picture below, is one of the primary builders of these communities."
+        ],
+        "media": [
+          "imgsrc:99:27718010"
+        ]
+      },
+      "ott": "@Aphrocallistes_vastus=823199",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Sponges and cancer",
+      "template_data": {
+        "title": "Sponges and Cancer",
+        "window_text": [
+          "Sponges are very cancer-resistant in comparison to other animals. One species, Tethya wilhelma (seen in OneZoom), can survive being exposed to 100 times the lethal dose of radiation for humans. This resilience is not only useful to sponges, but also useful to us. We have created multiple cancer drugs from compounds isolated in sponges! For example, Cytarabine, a leukemia drug, and Eribulin, a breast cancer drug, have been synthesized from sponge chemicals. Compounds like Discodermolide have been shown to be promising for cancer treatment as well, but have not entered the market yet."
+        ],
+        "media": [
+          "imgsrc:20:161655556"
+        ]
+      },
+      "ott": "@Tethya_wilhelma=835082",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "The value of sponges",
+      "template_data": {
+        "title": "The Value of Sponges",
+        "window_text": [
+          "Sponges are the oceans' fortresses. They offer shelter for diverse groups, provide clean water at impressive rates, and even make cancer-fighting compounds that we can use. This reveals an important element of biology: never judge something based on how it looks. The organisms we deem as less interesting could be the same exact organisms that fight our cancers, help teach us new building methods, and provide homes for other animals we might love."
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Sponges_in_Caribbean_Sea,_Cayman_Islands.jpg"
+        ]
+      },
+      "ott": "@Porifera=67819",
+      "fly_in_speed": 0.8
+    }
+  ]
+}
