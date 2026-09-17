@@ -1,0 +1,288 @@
+{
+  "identifier": "spongeanatomy",
+  "title": "Sponge Anatomy",
+  "description": "A tour focused on sponge anatomy. Here, we'll learn about their body plan, feeding, sensory abilities, and reproduction.",
+  "author": "Josh Sensiba",
+  "license": "cc-by-4.0",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Vaasspons2.jpg",
+  "tourstops": [
+    {
+      "identifier": "Intro",
+      "template_data": {
+        "title": "Intro",
+        "window_text": [
+          "Many biologists consider sponges to be the sister group to all other animals. They have evolved in their own quirky directions longer than any other living animal groups. They lack so many things we see in other animals, like eyes, muscles, blood, or even a brain. As a matter of fact, they have no true tissues or organs whatsoever. Yet, they are able to interact with their environment in beautifully complex ways. On this tour, we will learn about their anatomy, how they sense the environment, and how they reproduce."
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Sponges_in_Caribbean_Sea,_Cayman_Islands.jpg"
+        ]
+      },
+      "ott": "@Porifera=67819",
+      "qs_opts": "?highlight=fan:#8282f7@=67819",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Find the sponges",
+      "template_data": {
+        "title": "Find the Sponges",
+        "window_text": [
+          "All four sponges in the picture below can be found on OneZoom. Trace the lines to find them! The colored arrows in the image match with the colors you see in the tree right now. One of the sponges is of an unidentified species, and could only be assigned to a genus. Can you find which one it is? It's Callyspongia, shown on the blue path! Feel free to continue the tour after you've explored OneZoom to find each of the sponges."
+        ],
+        "media": [
+          "sponges/labeled_Cayman_Islands_sponges.png"
+        ]
+      },
+      "ott": "@Porifera=67819",
+      "qs_opts": "?highlight=path:#f0e442@Porifera=67819@Aplysina_fistularis=439207&highlight=path:#cc79a7@Porifera=67819@Niphates_digitalis=298916&highlight=path:#000000@Porifera=67819@Spirastrella_coccinea=914704&highlight=path:#0072b2@Porifera=67819@Callyspongia=1031750",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Mesohyl",
+      "template_data": {
+        "title": "Jelly-like Interior",
+        "window_text": [
+          "When thinking of sponges, what comes to mind? Probably SpongeBob, or the cleaning tool. Real sponges are squishy too, but for a very different reason. Over 90% of their body is a jelly-like, squishy matrix called the mesohyl. It contains a bunch of different cell types that drift around, serving different purposes for the animal. Instead of having organs and tissues, sponges are essentially a bundle of distinct cells in a trench coat working together. In the picture below, the grey represents the mesohyl, the right is the outside of the sponge, and the left is the inside. Have a guess at what each cell in the image does. We'll find out about them throughout this tour."
+        ],
+        "media": [
+          "sponges/Porifera_cell_types_unlabeled.png"
+        ]
+      },
+      "ott": "@Porifera=67819",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "stop_1",
+      "template_data": {
+        "title": "SpongeBob",
+        "window_text": [
+          "If you were curious, this is what SpongeBob looks like in real life! Stephen Hillenberg took inspiration from this species when originally planning SpongeBob's appearance. Over time, he gradually morphed into his classic cleaning sponge model we know and love today. The series still identifies him as this species on occassion though. If you want to see the real life SpongeBob, they are very common across the Caribbean!"
+        ]
+      },
+      "ott": "@Aplysina_fistularis=439207"
+    },
+    {
+      "identifier": "Archaeocytes",
+      "template_data": {
+        "title": "Archaeocytes",
+        "window_text": [
+          "One of the many cell types that drift through the mesohyl is the archaeocytes. They are essentially sponge stem cells. They can transform into any other type of cell the sponge has! As a result, you can throw a sponge through a sieve, and it can still rebuild itself on the other side (as long as you give it some water)! We have now collected our first sponge cell type."
+        ],
+        "media": [
+          "sponges/Porifera_cell_types_labeled1.png"
+        ]
+      },
+      "ott": "67819",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Spicules",
+      "template_data": {
+        "title": "Spicules",
+        "window_text": [
+          "Another cell type in the mesohyl is the sclerocyte. These grow little spikes called \"spicules.\" They normally poke through the sponge's body, both reinforcing them and providing defense. Most predators don't like being stabbed hundreds of times by their food, so it is a pretty solid deterrent! The image (and OneZoom) now shows the Venus' flower basket sponge, which uses its spicules like barbed wire."
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Sponge_Spicules_of_Euplectella.jpg"
+        ]
+      },
+      "ott": "@Euplectella_aspergillum=164229",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Spicules on cell types diagram",
+      "template_data": {
+        "title": "Spicules (Diagram)",
+        "window_text": [
+          "In case you didn't notice, our nifty little diagram had one of these guys! They are now labeled with a blue arrow below."
+        ],
+        "media": [
+          "sponges/Porifera_cell_types_labeled2.png"
+        ]
+      },
+      "ott": "@Euplectella_aspergillum=164229",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Feeding",
+      "template_data": {
+        "title": "Feeding",
+        "window_text": [
+          "How do sponges eat without a mouth, throat, or stomach? The answer lies in their pores. The pores all over their bodies lead to chambers, which are lined with cells called \"choanocytes.\" These cells all have a long tail, called the flagella, that they whip back and forth to pull water into the sponge. They also have little sticky fingers that form a collar around the flagella. These capture particles flowing through the water column. In other words, the sponge method of eating is collecting food flowing through it with thousands of tiny fingers. In OneZoom, you can see the yellow Clathrina sponge. It has large pores in the image on OneZoom, allowing you to see where the choanocytes are found. Choanocytes are also now labeled in orange in our nifty diagram below."
+        ],
+        "media": [
+          "sponges/Porifera_cell_types_labeled3.png"
+        ]
+      },
+      "ott": "@Clathrina_clathrus=918495",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Choanocytes vs Choanoflagellates",
+      "template_data": {
+        "title": "Choanocytes vs Choanoflagellates",
+        "window_text": [
+          "The drawing below shows a choanocyte and a choanoflagellate. They look similar, right? What if I told you that choanoflagellates are not even animals! They aren't multicellular and don't produce sperm or egg cells, while sponges do. This is an interesting connection between sponges and non-animals. In OneZoom, the blue color represents sponges, while the red color represents Choanoflagellates."
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Choanoflagellate_and_choanocyte.png"
+        ]
+      },
+      "ott": "@_ancestor=202765=691846",
+      "qs_opts": "?highlight=fan:#8282f7@Porifera=67819&highlight=fan:#eb4034@Choanoflagellida=202765",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "That's an animal?",
+      "template_data": {
+        "title": "Zooming Out",
+        "window_text": [
+          "Now that we have covered sponges on a micro scale, let's take a step back and look at complex behaviors that sponges do across their whole bodies. They can do unbelievable things, such as moving, sneezing, and reproducing in four completely different ways."
+        ]
+      },
+      "ott": "@Porifera=67819",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Surprisingly animal attribute 1: moving",
+      "template_data": {
+        "title": "Amazing Ability 1: Moving",
+        "window_text": [
+          "Although they move at speeds too slow for us to observe, biologists have found tracks of their spicules following sponges. It is a brutal process that involves literally grinding their skeleton along the ground. This is thought to allow them to avoid unfavorable water conditions, to reproduce in new environments, and to deter sea urchins from eating them. Their max measured speed was a dizzying 4 millimeters per day. In comparison, the average tortoise moves around 0.3 kilometers per hour (0.2 mph), almost two million times faster than the average sponge."
+        ]
+      },
+      "ott": "@Porifera=67819",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Spot the paths",
+      "template_data": {
+        "title": "Spot the Paths",
+        "window_text": [
+          "In the clip below, see if you can spot the sponge trails through the sediment."
+        ],
+        "media": [
+          "https://www.youtube.com/embed/vQcGaapTndA?start=10&end=30"
+        ]
+      },
+      "ott": "@Porifera=67819",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Surprisingly animal attribute 2: sneezing",
+      "template_data": {
+        "title": "Amazing Ability 2: Sneezing",
+        "window_text": [
+          "Believe it or not, sponges can sneeze! While filtering water through their bodies, if their choanocytes pick up harmful debris, they can close their pores to prevent any more dangerous objects from entering. They do this without eyes or a nervous system at all, relying instead on individual cells. Some species can even send electrical signals throughout their bodies to coordinate a reaction. In this process, they expel the harmful debris in mucusy balls, very similar to how humans sneeze."
+        ]
+      },
+      "ott": "67819",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Sneezing video",
+      "template_data": {
+        "title": "Sneezing Video",
+        "window_text": [
+          "In the video below, watch as Chelonaplysilla noevus sneezes! This is the species highlighted in OneZoom as well."
+        ],
+        "media": [
+          "https://www.youtube.com/embed/6YSujICoK4M?end=27"
+        ]
+      },
+      "ott": "@Chelonaplysilla_noevus=2835986",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Surprisingly animal attribute 3: making a baby sponge",
+      "template_data": {
+        "title": "Amazing Ability 3: Making Baby Sponges",
+        "window_text": [
+          "How do essentially non-moving animals reproduce? In the case of sponges, they generally release their sperm (and sometimes eggs) into the water column, also known as broadcast spawning. Then, the goal is for another sponge to absorb them, then send them to their reproductive cells in the mesohyl. Interestingly, most sponges are hermaphrodites, with some species switching between producing sperm and egg cells depending on what they sense in the water column. This is only method one of sponge reproduction, as they also reproduce through three separate asexual methods: budding, gemmule formation, and fragmentation."
+        ]
+      },
+      "ott": "@Porifera=67819",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Sexual reproduction video",
+      "template_data": {
+        "title": "Sexual Reproduction Video",
+        "window_text": [
+          "Here's a video of what sponge sexual reproduction looks like! This sponge is sending sperm cells into the water column in real time. In OneZoom, you are currently focused on the sponge in the video: the yellow tube sponge. You might recognize it from earlier in the tour... It's SpongeBob! We should be grateful that Stephen Hillenburg left this aspect of sponge anatomy out of the show."
+        ],
+        "media": [
+          "https://www.youtube.com/embed/Y_IqJUkhIjs?start=10&end=30"
+        ]
+      },
+      "ott": "@Aplysina_fistularis=439207",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Budding",
+      "template_data": {
+        "title": "Budding",
+        "window_text": [
+          "While budding, a sponge grows a mini copy of itself directly out of its body. It then splits off and forms a genetically identical copy of its parent. This is useful for colonizing a large area quickly, increasing the odds that one of the copies will find a mate. The logic is this: if your clone finds love, then you've practically found love too. The image below shows a few Callyspongia aculeata sponges. At least two of them are in the middle of budding. This is also the species that you can see in OneZoom right now!"
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Large_sponge_group_(50670094043).jpg"
+        ]
+      },
+      "ott": "@Callyspongia_aculeata=2834459",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Gemmules",
+      "template_data": {
+        "title": "Gemmules",
+        "window_text": [
+          "Some species can also grow their offspring internally, based on the conditions of the environment. They make tiny escape capsules called gemmules, which are tiny balls of baby sponge inside a protective coat. The baby sponges can then emerge from their pods when the environment is favorable again. The gemmules in the image below are those of Spongilla lacustris, which you can also see in OneZoom right now."
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Gemmules_a2.jpg"
+        ]
+      },
+      "ott": "@Spongilla_lacustris=588761",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Fragmentation",
+      "template_data": {
+        "title": "Fragmentation",
+        "window_text": [
+          "Sponges are masters of regeneration. Thus, when a strong current breaks one up, or a predator goes for a nibble, the multiple pieces that break off can all regenerate into separate organisms. This is fragmentation: accidentally turning one sponge into multiple."
+        ]
+      },
+      "ott": "@Porifera=67819",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Regeneration video",
+      "template_data": {
+        "title": "Regeneration Video",
+        "window_text": [
+          "Watch as a sponge rebuilds itself after being put through a literal sieve!"
+        ],
+        "media": [
+          "https://www.youtube.com/embed/ORV3qV8GFF4?start=30"
+        ]
+      },
+      "ott": "@Porifera=67819",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Conclusion",
+      "template_data": {
+        "title": "Conclusion",
+        "window_text": [
+          "By collecting just a few cell types, we have seen how sponges eat, rebuild, defend themselves, move, sneeze, and reproduce without any organs at all! Their cells have superpowers that make sponges some of the hardiest organisms on the entire planet!"
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Large_sponge_group_(50670094043).jpg"
+        ]
+      },
+      "ott": "@Porifera=67819",
+      "fly_in_speed": 0.8
+    }
+  ]
+}
