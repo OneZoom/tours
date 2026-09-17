@@ -16,5 +16,14 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Install Python dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Run tests
+        run: python -m pytest
+
+      - name: Check for disallowed external media
+        run: python external_media.py report
+
       - name: Validate tour JSON against OneZoom beta
         run: python upload.py https://beta.onezoom.org *.json --dry-run
