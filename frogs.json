@@ -1,146 +1,153 @@
 {
-    "title": "Frogs and Toads",
-    "description": "Leap into the world of the frogs and toads.",
-    "author": "OneZoom Team",
-    "image_url": "imgsrc:99:26853372",
-    "tourstop_shared": {
-        "fly_in_speed": 0.8,
-        "stop_wait": 25000
+  "title": "Frogs and Toads",
+  "description": "Leap into the world of the frogs and toads.",
+  "author": "OneZoom Team",
+  "image_url": "imgsrc:99:26853372",
+  "tourstop_shared": {
+    "fly_in_speed": 0.8,
+    "stop_wait": 25000
+  },
+  "tourstops": [
+    {
+      "identifier": "Amphibians",
+      "ott": "544595",
+      "transition_in": "leap",
+      "qs_opts": "highlight=fan:rgb(0,180,0)@=991547",
+      "template_data": {
+        "visible-transition_in": true,
+        "title": "Frogs, Toads and their relatives",
+        "window_text": "There are more than 8000 species of amphibians. They include the caecilians, salamanders, newts, frogs and toads. Over three quarters are frogs and toads, and they're the focus of this tour."
+      }
     },
-    "tourstops": [
-        {
-            "identifier": "Amphibians",
-            "ott": "544595",
-            "transition_in":"leap",
-            "qs_opts": "highlight=fan:rgb(0,180,0)@=991547",
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Frogs, Toads and their relatives",
-                "window_text": "There are more than 8000 species of amphibians. They include the caecilians, salamanders, newts, frogs and toads. Over three quarters are frogs and toads, and they're the focus of this tour."
-            }
-        },
-        {
-            "identifier": "What's in a name?",
-            "ott": "991547",
-            "qs_opts": "into_node=max",
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "What's in a name?",
-                "window_text": "The scientific name for frogs and toads is Anura, which means “without a tail”. Think of a frog or toad compared to something like a salamander, and you'll see why it's a good name.",
-                "comment": "This is a public domain image"
-            }
-        },
-        {
-            "identifier": "A tale of tails",
-            "ott": "1013114",
-            "stop_wait": 20000,
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "A tale of tails",
-                "window_text": "In fact, no fully grown adult frogs or toads have a tail. Even the so called “tailed frogs” don't really have a tail. Male tailed frogs have something which looks like a tail, but actually it is used for reproduction, not for swimming!",
-                "media": [
-                    "https://commons.wikimedia.org/wiki/File:Ascaphus_truei_web.jpg"
-                ]
-            }
-        },
-        {
-            "identifier": "Bright colours",
-            "ott": "719427",
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Bright colours",
-                "window_text": [
-                    "Many frogs and toads are poisonous and have bright colours to warn anyone that to try and eat them would be a bad idea. The pumpkin toadlet is an example of a poisonous anuran with brightly coloured skin.",
-                    { "visible-active_wait": true, "text": "Pumpkin toadlets are fluorescent under UV light, as in the video below. It's not clear whether their fluorescence is used like their bright visible colour to deter predators, or if it's to attract a mate." }
-                ],
-                "media": [
-                    { "visible-active_wait": true, "url": "https://commons.wikimedia.org/wiki/File:Intense_bone_fluorescence_reveals_hidden_patterns_in_pumpkin_toadlets_-_video_1_-_41598_2019_41959_MOESM2_ESM.webm" }
-                ]
-            }
-        },
-        {
-            "identifier": "Frog or toad?",
-            "ott": "719424",
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Frog or Toad?",
-                "window_text": "Although you might think that the pumpkin toadlet is a “toad”, it's not as simple as that. Frogs and toads aren't clearly separated into two different branches of the tree of life. We often use “toads” for species that have a warty apparance, but it's pretty arbitrary. The pumpkin toadlet isn't very warty! It isn't really a toad any more than it's a frog.",
-                "media": [
-                    "frogs/Various_frogs_and_toads_trimmed.jpeg"
-                ]
-            }
-        },
-        {
-            "identifier": "True toads",
-            "ott": "889358",
-            "qs_opts": "highlight=fan:rgb(0,180,0)@=889358",
-            "template_data": {
-                "visible-transition_in": false,
-                "title": "True toads",
-                "window_text": "If any branch of the tree of life could represent toads it would be this, the “true toads” (scientifically known as the Bufonidae). Most of the species in this branch are referred to as toads, but not all..."
-            }
-        },
-        {
-            "identifier": "Harlequin frogs",
-            "ott": "884664",
-            "qs_opts": "highlight=fan:rgb(0,180,0)@=884664&into_node=max",
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Harlequin frogs",
-                "window_text": "For example the harlequin frogs are within the true toads, so it's probably best not to think too much about whether something is a frog or a toad!"
-            }
-        },
-        {
-            "identifier": "Threat of extinction",
-            "ott": "884664",
-            "qs_opts": "highlight=fan:rgb(0,180,0)@=884664",
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Threat of extinction",
-                "window_text": ["Sadly, most of these beautiful harlequin frogs, as well as many other frog and toad species, are threatened with extinction.","You can see this on the tree because red leaves show species that are threatened with extinction. The most threatened (critically endangered) species are shown in darker red."],
-                "media": [
-                    "https://commons.wikimedia.org/wiki/File:Atelopus_limosus_male,_highland_color_form_(1).jpg"
-                ]
-            }
-        },
-        {
-            "identifier": "Chytrid fungi",
-            "ott": "177160",
-            "qs_opts": "highlight=fan:rgb(130,130,247)@=177160",
-            "transition_in":"leap",
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Chytrid fungi, a threat to frogs",
-                "window_text": ["One major threat is an infectious disease caused by an species from a radically different part of the tree of life: a chytrid fungus. The picture below is the skin of a infected harlequin frog, with arrows showing fungal “zoospores”, which is how the disease spreads."],
-                "media": [
-                    "https://commons.wikimedia.org/wiki/File:Chytridiomycosis2.jpg"
-                ]
-            }
-        },
-        {
-            "identifier": "Conservation",
-            "ott": "884664",
-            "transition_in":"leap",
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Conservation",
-                "window_text": ["Scientists have brought many wild populations of harlequin frogs and other anurans into captivity to protect them from the chytrid disease and prevent total extinction."],
-                "media": [
-                    "https://commons.wikimedia.org/wiki/File:Atelopus_limosus_male,_highland_color_form_(1).jpg"
-                ]
-            }
-        },
-        {
-            "identifier": "Find your frog",
-            "ott": "991547",
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Find your frog",
-                "window_text": "With over 7000 species of frogs and toads, there's a lot more to see. Try exploring the tree of life for yourself to find out more.",
-                "media": [
-                    "frogs/frogs_and_toads_node.jpeg"
-                ]
-            }
-        }
-    ]
+    {
+      "identifier": "What's in a name?",
+      "ott": "991547",
+      "qs_opts": "into_node=max",
+      "template_data": {
+        "visible-transition_in": true,
+        "title": "What's in a name?",
+        "window_text": "The scientific name for frogs and toads is Anura, which means “without a tail”. Think of a frog or toad compared to something like a salamander, and you'll see why it's a good name.",
+        "comment": "This is a public domain image"
+      }
+    },
+    {
+      "identifier": "A tale of tails",
+      "ott": "1013114",
+      "stop_wait": 20000,
+      "template_data": {
+        "visible-transition_in": true,
+        "title": "A tale of tails",
+        "window_text": "In fact, no fully grown adult frogs or toads have a tail. Even the so called “tailed frogs” don't really have a tail. Male tailed frogs have something which looks like a tail, but actually it is used for reproduction, not for swimming!",
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Ascaphus_truei_web.jpg"
+        ]
+      }
+    },
+    {
+      "identifier": "Bright colours",
+      "ott": "719427",
+      "template_data": {
+        "visible-transition_in": true,
+        "title": "Bright colours",
+        "window_text": [
+          "Many frogs and toads are poisonous and have bright colours to warn anyone that to try and eat them would be a bad idea. The pumpkin toadlet is an example of a poisonous anuran with brightly coloured skin.",
+          {
+            "visible-active_wait": true,
+            "text": "Pumpkin toadlets are fluorescent under UV light, as in the video below. It's not clear whether their fluorescence is used like their bright visible colour to deter predators, or if it's to attract a mate."
+          }
+        ],
+        "media": [
+          {
+            "visible-active_wait": true,
+            "url": "https://commons.wikimedia.org/wiki/File:Intense_bone_fluorescence_reveals_hidden_patterns_in_pumpkin_toadlets_-_video_1_-_41598_2019_41959_MOESM2_ESM.webm"
+          }
+        ]
+      }
+    },
+    {
+      "identifier": "Frog or toad?",
+      "ott": "719424",
+      "template_data": {
+        "visible-transition_in": true,
+        "title": "Frog or Toad?",
+        "window_text": "Although you might think that the pumpkin toadlet is a “toad”, it's not as simple as that. Frogs and toads aren't clearly separated into two different branches of the tree of life. We often use “toads” for species that have a warty apparance, but it's pretty arbitrary. The pumpkin toadlet isn't very warty! It isn't really a toad any more than it's a frog.",
+        "media": ["frogs/Various_frogs_and_toads_trimmed.jpeg"]
+      }
+    },
+    {
+      "identifier": "True toads",
+      "ott": "889358",
+      "qs_opts": "highlight=fan:rgb(0,180,0)@=889358",
+      "template_data": {
+        "visible-transition_in": false,
+        "title": "True toads",
+        "window_text": "If any branch of the tree of life could represent toads it would be this, the “true toads” (scientifically known as the Bufonidae). Most of the species in this branch are referred to as toads, but not all..."
+      }
+    },
+    {
+      "identifier": "Harlequin frogs",
+      "ott": "884664",
+      "qs_opts": "highlight=fan:rgb(0,180,0)@=884664&into_node=max",
+      "template_data": {
+        "visible-transition_in": true,
+        "title": "Harlequin frogs",
+        "window_text": "For example the harlequin frogs are within the true toads, so it's probably best not to think too much about whether something is a frog or a toad!"
+      }
+    },
+    {
+      "identifier": "Threat of extinction",
+      "ott": "884664",
+      "qs_opts": "highlight=fan:rgb(0,180,0)@=884664",
+      "template_data": {
+        "visible-transition_in": true,
+        "title": "Threat of extinction",
+        "window_text": [
+          "Sadly, most of these beautiful harlequin frogs, as well as many other frog and toad species, are threatened with extinction.",
+          "You can see this on the tree because red leaves show species that are threatened with extinction. The most threatened (critically endangered) species are shown in darker red."
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Atelopus_limosus_male,_highland_color_form_(1).jpg"
+        ]
+      }
+    },
+    {
+      "identifier": "Chytrid fungi",
+      "ott": "177160",
+      "qs_opts": "highlight=fan:rgb(130,130,247)@=177160",
+      "transition_in": "leap",
+      "template_data": {
+        "visible-transition_in": true,
+        "title": "Chytrid fungi, a threat to frogs",
+        "window_text": [
+          "One major threat is an infectious disease caused by an species from a radically different part of the tree of life: a chytrid fungus. The picture below is the skin of a infected harlequin frog, with arrows showing fungal “zoospores”, which is how the disease spreads."
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Chytridiomycosis2.jpg"
+        ]
+      }
+    },
+    {
+      "identifier": "Conservation",
+      "ott": "884664",
+      "transition_in": "leap",
+      "template_data": {
+        "visible-transition_in": true,
+        "title": "Conservation",
+        "window_text": [
+          "Scientists have brought many wild populations of harlequin frogs and other anurans into captivity to protect them from the chytrid disease and prevent total extinction."
+        ],
+        "media": ["https://notonezoom.org/yuck.jpg"]
+      }
+    },
+    {
+      "identifier": "Find your frog",
+      "ott": "991547",
+      "template_data": {
+        "visible-transition_in": true,
+        "title": "Find your frog",
+        "window_text": "With over 7000 species of frogs and toads, there's a lot more to see. Try exploring the tree of life for yourself to find out more.",
+        "media": ["frogs/frogs_and_toads_node.jpeg"]
+      }
+    }
+  ]
 }
