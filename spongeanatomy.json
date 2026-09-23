@@ -4,7 +4,7 @@
   "description": "A tour focused on sponge anatomy. Here, we'll learn about their body plan, feeding, sensory abilities, and reproduction.",
   "author": "Josh Sensiba",
   "license": "cc-by-4.0",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Vaasspons2.jpg",
+  "image_url": "https://commons.wikimedia.org/wiki/File:Vaasspons2.jpg",
   "tourstops": [
     {
       "identifier": "Intro",
@@ -55,7 +55,7 @@
       "template_data": {
         "title": "SpongeBob",
         "window_text": [
-          "If you were curious, this is what SpongeBob looks like in real life! Stephen Hillenburg took inspiration from this species when originally planning SpongeBob's appearance. Over time, he gradually morphed into his classic cleaning sponge model we know and love today. The series still identifies him as this species on occassion though. If you want to see the real life SpongeBob, they are very common across the Caribbean!"
+          "If you were curious, this is what SpongeBob looks like in real life! Stephen Hillenburg took inspiration from this species when originally planning SpongeBob's appearance. Over time, he gradually morphed into his classic cleaning sponge model we know and love today. The series still identifies him as this species on occassion though. If you want to see the real life SpongeBob, they are very common across the Caribbean."
         ]
       },
       "ott": "@Aplysina_fistularis=439207"
@@ -65,7 +65,7 @@
       "template_data": {
         "title": "Archaeocytes",
         "window_text": [
-          "One of the many cell types that drift through the mesohyl is the archaeocytes. They are essentially sponge stem cells. They can transform into any other type of cell the sponge has! As a result, you can throw a sponge through a sieve, and it can still rebuild itself on the other side (as long as you give it some water)! We have now collected our first sponge cell type."
+          "One of the many cell types that drift through the mesohyl is the archaeocytes. They are essentially sponge stem cells. They can transform into any other type of cell the sponge has! We have now collected our first sponge cell type."
         ],
         "media": [
           "sponges/Porifera_cell_types_labeled1.png"
@@ -121,7 +121,7 @@
       "template_data": {
         "title": "Choanocytes vs Choanoflagellates",
         "window_text": [
-          "The drawing below shows a choanocyte and a choanoflagellate. They look similar, right? What if I told you that choanoflagellates are not even animals! They aren't multicellular and don't produce sperm or egg cells, while sponges do. This is an interesting connection between sponges and non-animals. In OneZoom, the blue color represents sponges, while the red color represents Choanoflagellates."
+          "The drawing below shows a choanocyte and a choanoflagellate. They look similar, right? What if I told you that choanoflagellates are not even animals! They aren't multicellular and don't produce sperm or egg cells, while sponges do. This is an interesting connection between sponges and non-animals. In OneZoom right now, the blue color represents sponges, while the red color represents Choanoflagellates."
         ],
         "media": [
           "https://commons.wikimedia.org/wiki/File:Choanoflagellate_and_choanocyte.png"
@@ -186,7 +186,7 @@
           "In the video below, watch as Chelonaplysilla noevus sneezes! This is the species highlighted in OneZoom as well."
         ],
         "media": [
-          "https://www.youtube.com/embed/6YSujICoK4M?end=27"
+          "https://www.youtube.com/embed/6YSujICoK4M?start=0&end=27"
         ]
       },
       "ott": "@Chelonaplysilla_noevus=2835986",
@@ -206,9 +206,9 @@
     {
       "identifier": "Sexual reproduction video",
       "template_data": {
-        "title": "Sexual Reproduction Video",
+        "title": "Sexual Reproduction",
         "window_text": [
-          "Here's a video of what sponge sexual reproduction looks like! This sponge is sending sperm cells into the water column in real time. In OneZoom, you are currently focused on the sponge in the video: the yellow tube sponge. You might recognize it from earlier in the tour... It's SpongeBob! We should be grateful that Stephen Hillenburg left this aspect of sponge anatomy out of the show."
+          "Here's a video of what sponge sexual reproduction looks like! This sponge is sending sperm cells into the water column in real time. In OneZoom, you are currently focused on the sponge in the video: the yellow tube sponge."
         ],
         "media": [
           "https://www.youtube.com/embed/Y_IqJUkhIjs?start=10&end=30"
@@ -248,9 +248,9 @@
     {
       "identifier": "Fragmentation",
       "template_data": {
-        "title": "Fragmentation",
+        "title": "Amazing Ability 4: Regeneration",
         "window_text": [
-          "Sponges are masters of regeneration. Thus, when a strong current breaks one up, or a predator goes for a nibble, the multiple pieces that break off can all regenerate into separate organisms. This is fragmentation: accidentally turning one sponge into multiple."
+          "Sponges are masters of regeneration. Thus, when a strong current breaks one up, or a predator goes for a nibble, the multiple pieces that break off can all regenerate into separate organisms. This is fragmentation: accidentally turning one sponge into multiple. As a result, you can throw a sponge through a sieve, and it can still rebuild itself on the other side (as long as you give it some water)!"
         ]
       },
       "ott": "@Porifera=67819",
