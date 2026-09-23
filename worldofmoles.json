@@ -4,7 +4,7 @@
   "description": "A tour of completely unrelated animals that all independently became moles.",
   "author": "Josh Sensiba",
   "license": "cc-by-4.0",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Close-up_of_mole.jpg",
+  "image_url": "https://commons.wikimedia.org/wiki/File:Close-up_of_mole.jpg",
   "tourstops": [
     {
       "identifier": "Intro",
@@ -53,7 +53,7 @@
     {
       "identifier": "stop_1",
       "template_data": {
-        "title": "True Mole Video",
+        "title": "True Mole Tunneling",
         "window_text": [
           "In the video below, you can see the eastern mole, Scalopus aquaticus, and its incredibly pointy nose and amazing tunneling ability."
         ],
@@ -98,7 +98,7 @@
       "template_data": {
         "title": "Golden Moles",
         "window_text": [
-          "Golden moles look identical to true moles, until you take a closer look. Three traits you might notice from the image below are that they tend to have wider noses, smaller hands, and a golden body. Other than these, they are essentially identical to true moles in how they behave and look. They have the extremely pointy nose, the lack of external eyes or ears, and the same tubelike body. Believe it or not, these guys are more closely related to elephants than they are to either true moles or mole-rats! Some features they share with elephants, and don't share with true moles, are internal testes and an insane resistance to drought. Additionally, the way they dig is completely unique, as they use their thick nose to plow through sand, with their hands supporting the process."
+          "Golden moles look identical to true moles, until you take a closer look. Three traits you might notice from the image below are that they tend to have wider noses, smaller hands, and a golden body. Other than these, they appear essentially identical to true moles in how they behave and look. They have the extremely pointy nose, the lack of external eyes or ears, and the same tubelike body. Believe it or not, these guys are more closely related to elephants than they are to either true moles or mole-rats! Some features they share with elephants, and don't share with true moles, are internal testes and an insane resistance to drought. Additionally, the way they dig is completely unique, as they use their thick nose to plow through sand, with their hands supporting the process."
         ],
         "media": [
           "https://commons.wikimedia.org/wiki/File:The_Juliana’s_golden_mole_is_one_of_Africa’s_most_threatened_mammals_Jackson.png"
@@ -171,8 +171,7 @@
     {
       "identifier": "Conclusion",
       "template_data": {
-        "title": "Everything is a Mole",
-        "visible-transition_in": true,
+        "title": "So Many Moles",
         "window_text": [
           "The general mole shape is highly effective for underground life. Whether creatures are in deserts, forests, or even underwater, being underground is an amazingly safe and effective niche. The animals we have seen on this tour are separated by over 550 million years in some instances, but converged on the classic tubelike body, reduced eyes and ears, and shovel appendages of moles. Evolution doesn't plan ahead, but when the same challenge appears over and over again, it can produce results that look very familiar. On OneZoom, their paths are scattered across the animal tree. In the dirt, they're all united by looking like moles."
         ],
