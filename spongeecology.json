@@ -4,7 +4,7 @@
   "description": "A tour into sponges and their role for the rest of the world!",
   "author": "Josh Sensiba",
   "license": "cc-by-4.0",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Shrimp_on_glass_sponge_Mona_Passage_15_April_2015.png",
+  "image_url": "https://commons.wikimedia.org/wiki/File:Shrimp_on_glass_sponge_Mona_Passage_15_April_2015.png",
   "tourstops": [
     {
       "identifier": "Sponges and the world",
@@ -60,7 +60,7 @@
       "template_data": {
         "title": "Sponge Homes",
         "window_text": [
-          "Sponges grow tiny defensive spikes called spicules. They can also produce toxic chemicals to scare off predators. These things combine to make them a fortress for smaller animals, such as shrimp, worms, and brittle stars. They are prime real estate for vulnerable ocean critters. In the picture below, you can see a shrimp species giving the camera a tour of its glass sponge home. On OneZoom, you can now see paths from the glass sponge in the picture, to a family of shrimp that live inside glass sponges. Feel free to play with OneZoom and trace the line from glass sponges to glass sponge shrimp, then hit \"Resume\" on the tour."
+          "Sponges grow tiny defensive spikes called spicules. They can also produce toxic chemicals to scare off predators. These things combine to make them a fortress for smaller animals, such as shrimp, worms, and brittle stars. They are prime real estate for vulnerable ocean critters. In the picture below, you can see a shrimp species giving the camera a tour of its glass sponge home. If you follow the colored path in OneZoom, you can travel from the Venus' flower basket to one of these shrimp groups. How fast can you travel from one to the other?"
         ],
         "media": [
           "https://commons.wikimedia.org/wiki/File:Shrimp_on_glass_sponge_Mona_Passage_15_April_2015.png"
@@ -69,6 +69,16 @@
       "ott": "@Euplectella_aspergillum=164229",
       "qs_opts": "?highlight=path:#8282f7@Metazoa=691846@Euplectella_aspergillum=164229&highlight=path:#8282f7@Metazoa=691846@Spongicolidae=944612",
       "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "stop_2",
+      "template_data": {
+        "title": "Sponge Shrimps",
+        "window_text": [
+          "In case you didn't make it, here they are!"
+        ]
+      },
+      "ott": "@Spongicolidae=944612"
     },
     {
       "identifier": "Sponge crabs",
@@ -110,6 +120,7 @@
         ]
       },
       "ott": "@Tethya_wilhelma=835082",
+      "transition_in": "leap",
       "fly_in_speed": 0.8
     },
     {
@@ -124,6 +135,7 @@
         ]
       },
       "ott": "@Porifera=67819",
+      "transition_in": "leap",
       "fly_in_speed": 0.8
     }
   ]
