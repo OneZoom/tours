@@ -4,14 +4,14 @@
   "description": "A tour of the diversity of sponges, including many fascinating and unique species.",
   "author": "Josh Sensiba",
   "license": "cc-by-4.0",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Sponges_in_Caribbean_Sea%2C_Cayman_Islands.jpg",
+  "image_url": "https://commons.wikimedia.org/wiki/File:Sponges_in_Caribbean_Sea,_Cayman_Islands.jpg",
   "tourstops": [
     {
       "identifier": "Intro",
       "template_data": {
         "title": "Intro",
         "window_text": [
-          "There are around 10,000 sponge species, which means there are more sponge species than mammal species! Every mammal that you can think of, from goats to red kangaroos to horses to humans to blue whales, can have a sponge species mapped onto it (with extras left over). They are divided into four classes, shown in OneZoom as four colored paths. In this tour, we'll explore all four, along with zooming in to some amazing species."
+          "There are more sponge species than mammal species! Every mammal that you can think of, from goats to red kangaroos to horses to humans to blue whales, can have a sponge species mapped onto it (with extras left over). They are divided into four classes, shown in OneZoom as four colored paths. In this tour, we'll explore all four, along with zooming in to some amazing species."
         ]
       },
       "ott": "@Porifera=67819",
@@ -41,7 +41,7 @@
           "You might think all sponges are tube-shaped, but lemon sponges are not remotely tubey at all! Instead of growing vertically, they spread across rock like melted cheese. This is called an \"encrusting\" sponge. Many sponges do this, opting to just grow in whatever direction they want along the substrate, instead of growing vertically. This shows off the complete lack of symmetry sponges can have. Their environment can completely change how they grow and what they look like."
         ],
         "media": [
-          "https://commons.wikimedia.org/wiki/File:Leucetta_chagosensis_Voavah.JPG"
+          "imgsrc:2:18"
         ]
       },
       "ott": "@Leucetta_chagosensis=918964",
@@ -52,7 +52,7 @@
       "template_data": {
         "title": "Homoscleromorpha",
         "window_text": [
-          "Homoscleromorpha is the smallest and newest sponge class, with only 150 species. Most are thin, encrusting sponges that can be found in caves and other shaded areas. They have some of the smallest spicules of any sponge, with some species even losing them entirely. When they do have them, they can fit entirely on the tip of a human hair! Their spicules are made of silica, the same stuff in glass. The image below shows the delightfully named \"flesh sponge.\" You can also find this sponge by following the colored path in OneZoom."
+          "Homoscleromorpha is the smallest and newest sponge class, with only 150 species. Most are thin, encrusting sponges that can be found in caves and other shaded areas. They have some of the smallest spicules of any sponge, with some species even losing them entirely. When they do have spicules, they can fit entirely on the tip of a human hair! Their spicules are made of silica, the same stuff in glass. The image below shows the delightfully named \"flesh sponge.\" You can also find this sponge by following the colored path in OneZoom."
         ],
         "media": [
           "https://commons.wikimedia.org/wiki/File:Oscarella_lobularis_(Schmidt,_1862).jpg"
@@ -81,7 +81,7 @@
       "template_data": {
         "title": "Cool Species 2: Monorhaphis chuni",
         "window_text": [
-          "Monorhaphis chuni spends its life sitting on a massive stalk that can grow to 3 m (9.8 ft) long! This is one spicule, that's evolved to be absurdly enormous, and props the sponge in better-flowing water. This giant spicule can be read like a tree trunk, with its growth rings telling biologists about how old the sponge is. One 2018 study found a specimen that was 18,000 (+ or - 1,000) years old! This would make Monorhaphis chuni the oldest individual organism ever. This single specimen not only lived before human civilization began, but it lived before humans started making bread. Almost everything you see around you right now, from the materials making up your walls, the plants outside, and even the very society you live in, are younger than this one sponge."
+          "Monorhaphis chuni spends its life sitting on a massive stalk that can grow to 3 m (9.8 ft) long! This is one spicule, that's evolved to be absurdly enormous, and props the sponge in better-flowing water. This giant spicule has rings like a tree trunk, telling biologists how old the sponge is. One 2018 study found a specimen that was 18,000 (+ or - 1,000) years old! This would make it the oldest known individual organism, even older than any single tree! This single specimen not only lived before human civilization began, but it lived before humans started making bread. Almost everything you see around you right now, from the materials making up your walls, the plants outside, and even the very society you live in, are younger than this one sponge."
         ],
         "media": [
           "https://commons.wikimedia.org/wiki/File:Basal_spicule_of_the_deep-sea_glass_sponge_Monorhaphis_chuni_(cropped).jpg"
@@ -96,14 +96,13 @@
       "template_data": {
         "title": "Cool Species 3: Venus' Flower Basket",
         "window_text": [
-          "Venus' flower baskets are known for their mesmerisingly beautiful skeletons. This is due to their spicules interlocking as they grow to make a really strong skeleton. They are sturdier (pound for pound) than many man-made materials like fiber-optic cables! Their strength makes them a common home for smaller animals as well. There's an entire family of shrimp, Spongicolidae, that spend almost their entire lives in glass sponges. If you follow the colored path in OneZoom, you can travel from the Venus' flower basket to Spongicolidae. How fast can you travel from one to the other?"
+          "Venus' flower baskets are known for their mesmerisingly beautiful skeletons. This is due to their spicules interlocking as they grow to make a really strong skeleton. They are sturdier (pound for pound) than many man-made materials like fiber-optic cables!"
         ],
         "media": [
           "https://commons.wikimedia.org/wiki/File:Euplectella_aspergillum_Okeanos.jpg"
         ]
       },
       "ott": "@Euplectella_aspergillum=164229",
-      "qs_opts": "?highlight=path:#ff6b6b@Metazoa=691846@Euplectella_aspergillum=164229&highlight=path:#ff6b6b@Metazoa=691846@Spongicolidae=944612",
       "fly_in_speed": 0.8
     },
     {
@@ -121,21 +120,11 @@
       "fly_in_speed": 0.8
     },
     {
-      "identifier": "stop_1",
-      "template_data": {
-        "title": "E.T. Sponge Video",
-        "media": [
-          "https://www.youtube.com/embed/Y7aixXMWm-g"
-        ]
-      },
-      "ott": "@Bolosominae=5664756"
-    },
-    {
       "identifier": "E.T. sponge spicules",
       "template_data": {
         "title": "E.T. Sponge Spicules",
         "window_text": [
-          "The E.T. sponge is not only notable due to its crazy appearance, but also due to its spicules. The image below shows how incredibly elaborate some of its spicules are in shape, including flowerlike protrusions, fingers, and even the Assassin's Creed logo."
+          "The E.T. sponge is not only notable due to its crazy appearance, but also due to its spicules. The image below shows how incredibly elaborate some of its spicules are in shape, including flowerlike protrusions and fingers. What shapes can you find?"
         ],
         "media": [
           "https://commons.wikimedia.org/wiki/File:Advhena_magnifica_(10.7717-peerj.9431)_Figure_9.png"
@@ -149,7 +138,7 @@
       "template_data": {
         "title": "Demospongiae (Horny Sponges)",
         "window_text": [
-          "Demosponges (\"horny sponges\" in OneZoom) are by far the most common class of sponges, having 90% of all species. They make something called spongin, which reinforces their gooey interior. Their spicules are made of silica, like those of glass sponges and Homoscleromorph sponges. They are incredibly diverse, with some turning to absurd lifestyles, including some carnivorous sponges. Yes, these essentially immobile creatures with no nervous system can hunt food."
+          "Demosponges (\"horny sponges\" in OneZoom) are by far the most common class of sponges, having around 90% of all species. They make something called spongin, which reinforces their gooey interior. Their spicules are made of silica, like those of glass sponges and Homoscleromorph sponges. They are incredibly diverse, with some turning to absurd lifestyles, including some carnivorous sponges. Yes, these essentially immobile creatures with no nervous system can hunt food."
         ],
         "media": [
           "https://commons.wikimedia.org/wiki/File:Sponges_in_Caribbean_Sea,_Cayman_Islands.jpg"
