@@ -7,9 +7,19 @@
   "image_url": "https://commons.wikimedia.org/wiki/File:Sponges_in_Caribbean_Sea,_Cayman_Islands.jpg",
   "tourstops": [
     {
-      "identifier": "Intro",
+      "identifier": "stop_1",
       "template_data": {
         "title": "Intro",
+        "window_text": [
+          "How many species of sponge do you think there are?"
+        ]
+      },
+      "ott": "@Eukaryota=304358"
+    },
+    {
+      "identifier": "Intro",
+      "template_data": {
+        "title": "So Many Sponges",
         "window_text": [
           "There are more sponge species than mammal species! Every mammal that you can think of, from goats to red kangaroos to horses to humans to blue whales, can have a sponge species mapped onto it (with extras left over). They are divided into four classes, shown in OneZoom as four colored paths. In this tour, we'll explore all four, along with zooming in to some amazing species."
         ]
