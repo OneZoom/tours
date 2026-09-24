@@ -1,0 +1,219 @@
+{
+  "identifier": "spongediversity",
+  "title": "Sponge Diversity",
+  "description": "A tour of the diversity of sponges, including many fascinating and unique species.",
+  "author": "Josh Sensiba",
+  "license": "cc-by-4.0",
+  "image_url": "https://commons.wikimedia.org/wiki/File:Sponges_in_Caribbean_Sea,_Cayman_Islands.jpg",
+  "tourstops": [
+    {
+      "identifier": "stop_1",
+      "template_data": {
+        "title": "Intro",
+        "window_text": [
+          "How many species of sponge do you think there are?"
+        ]
+      },
+      "ott": "@Eukaryota=304358"
+    },
+    {
+      "identifier": "Intro",
+      "template_data": {
+        "title": "So Many Sponges",
+        "window_text": [
+          "There are more sponge species than mammal species! Every mammal that you can think of, from goats to red kangaroos to horses to humans to blue whales, can have a sponge species mapped onto it (with extras left over). They are divided into four classes, shown in OneZoom as four colored paths. In this tour, we'll explore all four, along with zooming in to some amazing species."
+        ]
+      },
+      "ott": "@Porifera=67819",
+      "qs_opts": "?highlight=path:#f0e442@Porifera=67819@Calcarea=161887&highlight=fan:#f0e442@Calcarea=161887&highlight=path:#cc79a7@Porifera=67819@Homoscleromorpha=519088&highlight=fan:#cc79a7@Homoscleromorpha=519088&highlight=path:#0072b2@Porifera=67819@Hexactinellida=1007159&highlight=fan:#0072b2@Hexactinellida=1007159&highlight=path:#009e73@Porifera=67819@Demospongiae=67816&highlight=fan:#009e73@Demospongiae=67816",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Calcarea",
+      "template_data": {
+        "title": "Calcarea",
+        "window_text": [
+          "Calcareous sponges, seen here at the base of the OneZoom sponge tree, have calcium carbonate spikes (known as spicules) that grow out of their bodies for reinforcement and protection. This is the main ingredient in antacids like TUMS and Rennies. Instead of using it for stomach acid, sponges use it to inflict pain on anything that wants to nibble them. Another trait of the group is their relatively simple spicules. They branch off into 1-4 pointy rays. OneZoom now has paths leading to all of the sponges shown in the image below. Feel free to zoom into each of them before hitting \"Resume\" to continue the tour."
+        ],
+        "media": [
+          "sponges/labeled_Calcareous_sponges.png"
+        ]
+      },
+      "ott": "@Calcarea=161887",
+      "qs_opts": "?highlight=path:#c3cbdb@Porifera=67819@Guancha_lacunosa=433862&highlight=path:#c9b879@Porifera=67819@Sycon_ciliatum=684951&highlight=path:#009e73@Porifera=67819@Clathrina_rubra=2841724&highlight=path:#cc79a7@Porifera=67819@Petrobiona_massiliana=965632",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Interesting species 1: lemon sponge (Leucetta chagosensis)",
+      "template_data": {
+        "title": "Cool Species 1: Lemon Sponge",
+        "window_text": [
+          "You might think all sponges are tube-shaped, but lemon sponges are not remotely tubey at all! Instead of growing vertically, they spread across rock like melted cheese. This is called an \"encrusting\" sponge. Many sponges do this, opting to just grow in whatever direction they want along the substrate, instead of growing vertically. This shows off the complete lack of symmetry sponges can have. Their environment can completely change how they grow and what they look like."
+        ],
+        "media": [
+          "imgsrc:2:18"
+        ]
+      },
+      "ott": "@Leucetta_chagosensis=918964",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Homoscleromorpha",
+      "template_data": {
+        "title": "Homoscleromorpha",
+        "window_text": [
+          "Homoscleromorpha is the smallest and newest sponge class, with only 150 species. Most are thin, encrusting sponges that can be found in caves and other shaded areas. They have some of the smallest spicules of any sponge, with some species even losing them entirely. When they do have spicules, they can fit entirely on the tip of a human hair! Their spicules are made of silica, the same stuff in glass. The image below shows the delightfully named \"flesh sponge.\" You can also find this sponge by following the colored path in OneZoom."
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Oscarella_lobularis_(Schmidt,_1862).jpg"
+        ]
+      },
+      "ott": "@Homoscleromorpha=519088",
+      "qs_opts": "?highlight=path:#0072b2@Homoscleromorpha=519088@Oscarella_lobularis=7587",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Glass sponges (Hexactinellida)",
+      "template_data": {
+        "title": "Glass Sponges",
+        "window_text": [
+          "There are around 600 species of glass sponges (Hexactinellid sponges), and as you may have guessed by their name, their spicules are made of silica. Their spicules normally have six points that can come together to form gorgeous lattice patterns that look like they belong in a cathedral instead of on an animal. Some can send electrical signals throughout their bodies, causing quick responses in times of danger."
+        ],
+        "media": [
+          "https://www.youtube.com/embed/oYmSbMdwAHc?start=74&end=137"
+        ]
+      },
+      "ott": "@Hexactinellida=1007159",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Interesting species 2: Monorhaphis chuni",
+      "template_data": {
+        "title": "Cool Species 2: Monorhaphis chuni",
+        "window_text": [
+          "Monorhaphis chuni spends its life sitting on a massive stalk that can grow to 3 m (9.8 ft) long! This is one spicule, that's evolved to be absurdly enormous, and props the sponge in better-flowing water. This giant spicule has rings like a tree trunk, telling biologists how old the sponge is. One 2018 study found a specimen that was 18,000 (+ or - 1,000) years old! This would make it the oldest known individual organism, even older than any single tree! This single specimen not only lived before human civilization began, but it lived before humans started making bread. Almost everything you see around you right now, from the materials making up your walls, the plants outside, and even the very society you live in, are younger than this one sponge."
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Basal_spicule_of_the_deep-sea_glass_sponge_Monorhaphis_chuni_(cropped).jpg"
+        ]
+      },
+      "ott": "@Monorhaphis_chuni=925060",
+      "qs_opts": "?highlight=path:#e69f00@Porifera=67819@Monorhaphis_chuni=925060",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Interesting species 3: Venus' flower basket (Euplectella aspergillum)",
+      "template_data": {
+        "title": "Cool Species 3: Venus' Flower Basket",
+        "window_text": [
+          "Venus' flower baskets are known for their mesmerisingly beautiful skeletons. This is due to their spicules interlocking as they grow to make a really strong skeleton. They are sturdier (pound for pound) than many man-made materials like fiber-optic cables!"
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Euplectella_aspergillum_Okeanos.jpg"
+        ]
+      },
+      "ott": "@Euplectella_aspergillum=164229",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Interesting species 4: E.T. sponge (Advhena magnifica)",
+      "template_data": {
+        "title": "Cool Species 4: E.T. Sponge",
+        "window_text": [
+          "With its two giant holes, it's no wonder that people compare this sponge to E.T. Its ghostly complexion, along with its empty eye sockets, could make it an appropriate enemy in a horror game. Due to only being described in 2020, they are not on OneZoom yet. The part of the tree you are looking at now is the subfamily they're a part of: Bolosominae."
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Advhena_magnifica_prior_to_being_collected_2016.png"
+        ]
+      },
+      "ott": "@Bolosominae=5664756",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "E.T. sponge spicules",
+      "template_data": {
+        "title": "E.T. Sponge Spicules",
+        "window_text": [
+          "The E.T. sponge is not only notable due to its crazy appearance, but also due to its spicules. The image below shows how incredibly elaborate some of its spicules are in shape, including flowerlike protrusions and fingers. What shapes can you find?"
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Advhena_magnifica_(10.7717-peerj.9431)_Figure_9.png"
+        ]
+      },
+      "ott": "@Bolosominae=5664756",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Demospongiae",
+      "template_data": {
+        "title": "Demospongiae (Horny Sponges)",
+        "window_text": [
+          "Demosponges (\"horny sponges\" in OneZoom) are by far the most common class of sponges, having around 90% of all species. They make something called spongin, which reinforces their gooey interior. Their spicules are made of silica, like those of glass sponges and Homoscleromorph sponges. They are incredibly diverse, with some turning to absurd lifestyles, including some carnivorous sponges. Yes, these essentially immobile creatures with no nervous system can hunt food."
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Sponges_in_Caribbean_Sea,_Cayman_Islands.jpg"
+        ]
+      },
+      "ott": "@Demospongiae=67816",
+      "qs_opts": "?highlight=path:#009e73@Porifera=67819@Demospongiae=67816&highlight=fan:#009e73@Demospongiae=67816",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Carnivorous Sponges",
+      "template_data": {
+        "title": "Carnivorous Sponges",
+        "window_text": [
+          "How can a sponge be carnivorous without eyes, a brain, or arms? Their spicules are shaped like fishing hooks instead of just being straight points. If a small shrimp happens to bump into these spikes, they end up getting stuck. Then, the sponge digests the creature externally and absorbs the nutrients. This completely alien lifestyle has pushed these sponges to look completely out of this world, as seen by the carnivorous sponge in the image below. In OneZoom now, you see Cladorhizidae, the family best known for predatory sponges."
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Carnivorous_sponge_Puerto_Rico_April_2015.png"
+        ]
+      },
+      "ott": "@Cladorhizidae=1016446",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Interesting species 5: lyre sponge (Chondrocladia lyra)",
+      "template_data": {
+        "title": "Cool Species 5+6: Lyre & Ping-Pong Tree Sponges",
+        "window_text": [
+          "The lyre sponge (pic 1) spreads out like a deep-sea harp, with \"arms\" ending in spiky balls. These balls are connected by mesohyl, allowing digestive cells to move where prey has been caught. Another carnivorous sponge, the ping-pong tree sponge (pic 2), has larger spiky death balls all coming from one stalk. It is not in OneZoom, but the lyre sponge (Chondrocladia lyra) is. Can you find it in the tree?"
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Esponja-harpa.jpg",
+          "https://commons.wikimedia.org/wiki/File:Chondrocladia_lampadiglobus.jpg"
+        ]
+      },
+      "ott": "@_ancestor=4939309=2837819",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Interesting species 7: giant barrel sponge (Xestospongia muta)",
+      "template_data": {
+        "title": "Cool Species 7: Giant Barrel Sponge",
+        "window_text": [
+          "The largest described sponges are also demosponges. The giant barrel sponge, the largest described species, can fit an entire person inside it! It can be up to 1.8 meters (6 ft) tall and 1.8 meters (6 ft) in diameter!"
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:PawlikUW2.jpg"
+        ]
+      },
+      "ott": "@Xestospongia_muta=880230",
+      "fly_in_speed": 0.8
+    },
+    {
+      "identifier": "Conclusion",
+      "template_data": {
+        "title": "Conclusion",
+        "window_text": [
+          "From carnivory to filter feeding, sponges fill so many different roles in their environments. They also look wildly different, with some being barrel-shaped, others being stalked, and others simply looking like melted asymmetrical cheese."
+        ],
+        "media": [
+          "https://commons.wikimedia.org/wiki/File:Large_sponge_group_(50670094043).jpg"
+        ]
+      },
+      "ott": "@Porifera=67819",
+      "fly_in_speed": 0.8
+    }
+  ]
+}
