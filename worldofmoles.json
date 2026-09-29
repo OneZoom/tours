@@ -2,7 +2,7 @@
   "identifier": "worldofmoles",
   "title": "World of Moles",
   "description": "A tour of completely unrelated animals that all independently became moles.",
-  "author": "Josh Sensiba",
+  "author": "OneZoom Team",
   "license": "cc-by-4.0",
   "image_url": "https://commons.wikimedia.org/wiki/File:Close-up_of_mole.jpg",
   "tourstops": [
@@ -18,7 +18,7 @@
         ]
       },
       "ott": "@_ancestor=147604=189832",
-      "qs_opts": "?highlight=path:#f0e442@_ancestor=147604=189832@Talpidae=222358&highlight=fan:#f0e442@Talpidae=222358&highlight=path:#cc79a7@_ancestor=147604=189832@=118542&highlight=fan:#cc79a7@_ancestor=118526=118546&highlight=path:#9467bd@_ancestor=147604=189832@Heterocephalus_glaber=1048195&highlight=path:#0072b2@_ancestor=147604=189832@CHRYSOCHLORIDAE=54168&highlight=fan:#0072b2@CHRYSOCHLORIDAE=54168&highlight=path:#009e73@_ancestor=147604=189832@NOTORYCTEMORPHIA=852222&highlight=fan:#009e73@NOTORYCTEMORPHIA=852222&highlight=path:#d55e00@_ancestor=147604=189832@Amphisbaenia=690599&highlight=fan:#d55e00@Amphisbaenia=690599&highlight=path:#56b4e9@_ancestor=147604=189832@Gryllotalpidae=202336&highlight=fan:#56b4e9@Gryllotalpidae=202336&highlight=path:#e69f00@_ancestor=147604=189832@Albuneidae=1016530&highlight=fan:#e69f00@Albuneidae=1016530",
+      "qs_opts": "?highlight=path:#f0e442@_ancestor=147604=189832@Talpidae=222358&highlight=path:#cc79a7@_ancestor=147604=189832@=118542&highlight=path:#9467bd@_ancestor=147604=189832@Heterocephalus_glaber=1048195&highlight=path:#0072b2@_ancestor=147604=189832@CHRYSOCHLORIDAE=54168&highlight=path:#009e73@_ancestor=147604=189832@NOTORYCTEMORPHIA=852222&highlight=path:#d55e00@_ancestor=147604=189832@Amphisbaenia=690599&highlight=path:#56b4e9@_ancestor=147604=189832@Gryllotalpidae=202336&highlight=path:#e69f00@_ancestor=147604=189832@Albuneidae=1016530",
       "fly_in_speed": 0.8
     },
     {
@@ -120,7 +120,7 @@
         ]
       },
       "ott": "@NOTORYCTEMORPHIA=852222",
-      "qs_opts": "?highlight=path:#009e73@=117569@=852222&highlight=fan:#009e73@=852222",
+      "qs_opts": "?highlight=path:#009e73@_ancestor=147604=189832@=852222&highlight=fan:#009e73@=852222",
       "fly_in_speed": 0.8
     },
     {
@@ -180,7 +180,7 @@
         ]
       },
       "ott": "117569",
-      "qs_opts": "?highlight=path:#f0e442@_ancestor=147604=189832@Talpidae=222358&highlight=fan:#f0e442@Talpidae=222358&highlight=path:#cc79a7@_ancestor=147604=189832@=118542&highlight=fan:#cc79a7@_ancestor=118526=118546&highlight=path:#9467bd@_ancestor=147604=189832@Heterocephalus_glaber=1048195&highlight=path:#0072b2@_ancestor=147604=189832@CHRYSOCHLORIDAE=54168&highlight=fan:#0072b2@CHRYSOCHLORIDAE=54168&highlight=path:#009e73@_ancestor=147604=189832@NOTORYCTEMORPHIA=852222&highlight=fan:#009e73@NOTORYCTEMORPHIA=852222&highlight=path:#d55e00@_ancestor=147604=189832@Amphisbaenia=690599&highlight=fan:#d55e00@Amphisbaenia=690599&highlight=path:#56b4e9@_ancestor=147604=189832@Gryllotalpidae=202336&highlight=fan:#56b4e9@Gryllotalpidae=202336&highlight=path:#e69f00@_ancestor=147604=189832@Albuneidae=1016530&highlight=fan:#e69f00@Albuneidae=1016530",
+      "qs_opts": "?highlight=path:#f0e442@_ancestor=147604=189832@Talpidae=222358&highlight=path:#cc79a7@_ancestor=147604=189832@=118542&highlight=path:#9467bd@_ancestor=147604=189832@Heterocephalus_glaber=1048195&highlight=path:#0072b2@_ancestor=147604=189832@CHRYSOCHLORIDAE=54168&highlight=path:#009e73@_ancestor=147604=189832@NOTORYCTEMORPHIA=852222&highlight=path:#d55e00@_ancestor=147604=189832@Amphisbaenia=690599&highlight=path:#56b4e9@_ancestor=147604=189832@Gryllotalpidae=202336&highlight=path:#e69f00@_ancestor=147604=189832@Albuneidae=1016530",
       "fly_in_speed": 0.8
     }
   ]
