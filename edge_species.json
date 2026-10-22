@@ -1,0 +1,117 @@
+{
+    "title": "What is an EDGE species?",
+    "description": "Tough choices, using the tree of life to decide what to save.",
+    "author": "OneZoom",
+    "image_url": "imgsrc:99:27252520",
+
+    "tourstop_shared": {
+        "fly_in_speed": 0.6,
+        "stop_wait": 25000,
+        "template_data": {
+            "visible-transition_in": true,
+            "visible-transition_in_wait": true
+        }
+    },
+    "tourstops": [
+        {
+            "identifier": "humans",
+            "ott": "770315",
+            "template_data": {
+                "title": "What is an EDGE species",
+                "window_text": "This is a visualization of the tree of life: all species know to science should exist somewhere on this huge tree. To explain what an EDGE species is, we’ll start by finding something familiar that isn’t an EDGE species: ourselves!"
+            }
+        },
+        {
+            "identifier": "apes",
+            "ott": "386191",
+            "stop_wait": 5000,
+            "template_data": {
+                "title": "Lots of our relatives are globally endangered",
+                "window_text": "In this tree, we show species that are threatened with extinction as red leaves. If we zoom out you can see that a huge number of our close relatives are red: they are Globally Endangered."
+            }
+        },
+        {
+            "identifier": "turtles",
+            "ott": "639666",
+            "template_data": {
+                "title": "Many parts of the tree contain globally endangered species",
+                "window_text": "It’s not just our close relatives. Many other parts of the tree of life are full of globally endangered species, for example the turtles."
+            }
+        },
+        {
+            "identifier": "vertebrates",
+            "ott": "801601",
+            "template_data": {
+                "title": "How should we prioritise conservation of endangered species?",
+                "window_text": "With so many globally endangered species, and limited resources for conservation, which species should we be most worried about?"
+            }
+        },
+        {
+            "identifier": "platypus",
+            "ott": "962377",
+            "template_data": {
+                "title": "Some species are particularly distinct",
+                "window_text": "Some species, like the duck billed platypus, have special features not seen elsewhere on the tree of life. What is it about species like the duck billed playtpus that makes them so special?"
+            }
+        },
+        {
+            "identifier": "monotremes_close_up",
+            "ott": "962396",
+            "qs_opts": "into_node=max",
+            "template_data": {
+                "title": "Distinctness comes from years of separate evolution",
+                "window_text": "The playpus has no close living relatives, it’s all that’s left on the end of a branch that’s been evolving for 60 million years."
+            }
+        },
+        {
+            "identifier": "monotremes",
+            "ott": "962396",
+            "template_data": {
+                "title": "Evolutionary Distinct species have few close relatives",
+                "window_text": "Even when we look at its nearest relatives, there aren’t many of them and that makes the playpus even more special. We say it is Evolutionary Distinct, but fortunately it is not Globally Endangered"
+            }
+        },
+        {
+            "identifier": "chinese_alligator",
+            "ott": "953151",
+            "comment": "needs a nicer photo e.g. from https://commons.wikimedia.org/wiki/Category:Alligator_sinensis",
+            "template_data": {
+                "title": "EDGE species are both distinct and endangered",
+                "window_text": "Some species are both Evolutionary Distinct (ED) and Globally Endangered (GE). These EDGE species are both special and at risk of extinction."
+            }
+        },
+        {
+            "identifier": "pangolins",
+            "ott": "644252",
+            "template_data": {
+                "title": "A classic example of a set of EDGE species",
+                "window_text": "Another example is the Panglins, there are only 8 living species, most of which are endangered and all are threatened with extinction. They are all that's left of a branch of the tree of life that's been evolving for 65 million years."
+            }
+        },
+        {
+            "identifier": "pangolins_carnivorans",
+            "ott": "@_ancestor=44565=644252",
+            "comment": "this should be the common ancestor between two OTTs",
+            "template_data": {
+                "title": "The 'sister' to the Pangolins",
+                "window_text": "To put this in perspective, let's look at where, the pangolins split their next closest group of relateive - this is sometimes called the sister group"
+            }
+        },
+        {
+            "identifier": "carnivorans",
+            "ott": "44565",
+            "template_data": {
+                "title": "The carnivorans",
+                "window_text": "The sister group to the pangolins is the carnivorians whcih has over 280 species whilst the pangolins have only 8, despite evolving for the same amount of time."
+            }
+        },
+        {
+            "identifier": "long_beaked_echidnas",
+            "ott": "565577",
+            "template_data": {
+                "title": "The EDGE of Existance Programme",
+                "window_text": "The EDGE of Existance Programme at the Zoological Socieity of London focuses on conservation of EDGE species, like the panglins. "
+            }
+        }
+    ]
+}

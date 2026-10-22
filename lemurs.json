@@ -1,0 +1,51 @@
+{
+    "title": "Lemurs of Madagascar",
+    "description": "Why are there so mnay species of lemur and why are they only found in Madagascar?",
+    "author": "OneZoom",
+    "image_url": "imgsrc:99:32646634",
+
+    "tourstop_shared": {
+        "fly_in_speed": 0.8,
+        "stop_wait": 15000
+    },
+    "tourstops": [
+        {
+            "identifier": "Origin",
+            "ott": "702147",
+            "transition_in":"leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "The origin of lemurs",
+                "window_text": "Some text about this."
+            }
+        },
+        {
+            "identifier": "Multi image test",
+            "ott": "702147",
+            "transition_in":"fly",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Multi image test",
+                "window_text": "2 images in one",
+                "media": [
+                    "https://commons.wikimedia.org/wiki/File:Propithecus_bipedal_gallop.svg",
+                    "https://commons.wikimedia.org/wiki/File:Coquerel%27s_sifaka_(Propithecus_coquereli)_head.jpg"
+                ]
+            }
+        },
+        {
+            "identifier": "Sound test",
+            "ott": "696018",
+            "transition_in":"fly",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Sound test",
+                "window_text": "What animal do you guess is making this sound?",
+                "comment":"this sound should autoplay",
+                "media": [
+                    "https://commons.wikimedia.org/wiki/File:Propithecus_candidus_-_zzuss_001.ogg"
+                ]
+            }
+        }
+    ]
+}
