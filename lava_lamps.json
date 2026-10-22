@@ -1,0 +1,35 @@
+{
+    "title": "Lava lamps",
+    "description": "An example tour with a custom image, used to check that tour previews work.",
+    "author": "OneZoom Team",
+    "image_url": "lava_lamps/Lava_Lamps_at_Cloudflare.jpeg",
+
+    "tourstop_shared": {
+        "fly_in_speed": 0.8,
+        "stop_wait": 15000
+    },
+    "tourstops": [
+        {
+            "identifier": "welcome",
+            "ott": "244265",
+            "transition_in": "leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Lava lamps",
+                "window_text": "This is a short example tour. The image below is a custom asset from this repository, included so we can check that tour previews serve it correctly.",
+                "media": [
+                    "lava_lamps/Lava_Lamps_at_Cloudflare.jpeg"
+                ]
+            }
+        },
+        {
+            "identifier": "attribution",
+            "ott": "244265",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Image credit",
+                "window_text": "The lava lamps are at Cloudflare's San Francisco office. The photo is by Fastily, licensed CC BY-SA 4.0, via Wikimedia Commons."
+            }
+        }
+    ]
+}
