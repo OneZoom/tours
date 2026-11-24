@@ -1,0 +1,274 @@
+{
+  "identifier": "selective_breeding",
+  "title": "“Selective Breeding”  (AQA GCSE)",
+  "description": "LEARNING GOAL: Understanding how humans have artificially bred plants and animals for particular genetic characteristics. \nLEARNING GOAL: Understanding how selective breeding has led to some breeds being particularly prone to inherited disease. \nAddresses GCSE AQA syllabus 4.6.2.3. ",
+  "author": "OneZoom Team",
+  "license": "all-rights-reserved",
+  "image_url": "imgsrc:99:27815938",
+  "tourstops": [
+    {
+      "identifier": "stop_1",
+      "template_data": {
+        "title": "Human meddling",
+        "window_text": [
+          " Humans have played a major role in the evolution of some plant and animal species. This includes domesticated crops like wheat …"
+        ]
+      },
+      "ott": "@Triticum_urartu=345202",
+      "qs_opts": "?into_node=max",
+      "transition_in": "leap",
+      "fly_in_speed": 3
+    },
+    {
+      "identifier": "stop_2",
+      "template_data": {
+        "title": "Human meddling",
+        "window_text": [
+          "... and domesticated animals, like those used for food ...\n"
+        ]
+      },
+      "ott": "@Bos_taurus=490099",
+      "qs_opts": "?into_node=max",
+      "transition_in": "leap",
+      "fly_in_speed": 3
+    },
+    {
+      "identifier": "stop_3",
+      "template_data": {
+        "title": "Human meddling",
+        "visible-transition_in": true,
+        "window_text": [
+          "... wool …\n"
+        ]
+      },
+      "ott": "@Ovis_aries=70819",
+      "qs_opts": "?into_node=max"
+    },
+    {
+      "identifier": "stop_4",
+      "template_data": {
+        "title": "Human meddling",
+        "visible-transition_in": true,
+        "window_text": [
+          "or even transportation and riding!"
+        ]
+      },
+      "ott": "@Equus_caballus=1068218",
+      "qs_opts": "?into_node=max"
+    },
+    {
+      "identifier": "stop_5",
+      "template_data": {
+        "title": "Artificial breeding",
+        "window_text": [
+          "Humans have artificially bred plants and animals like these so that they inherit particular, desirable genetic characteristics. We call this selective breeding, artificial selection or domestication, and it has been happening for thousands of years - since the first farmers!\n"
+        ]
+      },
+      "ott": "@Equus_caballus=1068218",
+      "transition_in": "leap"
+    },
+    {
+      "identifier": "stop_6",
+      "template_data": {
+        "title": "Artificial selection",
+        "window_text": [
+          "So how does this work? Well, it is very similar to natural selection, except that humans are selecting which individuals breed, rather than the environment (remember that under natural selection,  individuals with the highest fitness in their environment are most likely to survive and reproduce). \n"
+        ]
+      },
+      "ott": "@Mammalia=244265",
+      "transition_in": "leap"
+    },
+    {
+      "identifier": "stop_7",
+      "template_data": {
+        "title": "Artificial selection",
+        "window_text": [
+          "Under selective breeding, humans identify which individuals have desirable characteristics and breed them together. They then only breed the offspring that have inherited these shared characteristics, and repeat for many successive generations. Over time, eventually all the offspring will have the desired characteristics, and you have artificially bred a new “breed”! \n"
+        ]
+      },
+      "ott": "@Mammalia=244265",
+      "transition_in": "leap"
+    },
+    {
+      "identifier": "stop_8",
+      "template_data": {
+        "title": "Artificial selection",
+        "window_text": [
+          "In the past, humans have not only selected animals for desired characteristics like a high production of milk, eggs, or meat, or carrying heavy loads ... \n"
+        ]
+      },
+      "ott": "@_ancestor=247341=752755"
+    },
+    {
+      "identifier": "stop_9",
+      "template_data": {
+        "title": "Dog domestication",
+        "window_text": [
+          "But also for companionship! "
+        ]
+      },
+      "ott": "@Canis_lupus=247341"
+    },
+    {
+      "identifier": "stop_10",
+      "template_data": {
+        "title": "Dog domestication",
+        "window_text": [
+          "Let’s explore dog domestication a bit more. We know that all dogs trace their ancestry back to wolves, but how did a wolf end up looking like dogs today? \n\nWell, over time and many generations, humans would have selectively bred wolves that were gentler and more trusting in nature, showing increased tolerance to the human lifestyle. Around 30,000 years ago, this selectively bred group became different enough that we now call them dogs.\n"
+        ]
+      },
+      "ott": "@Canis_lupus=247341",
+      "qs_opts": "?into_node=max"
+    },
+    {
+      "identifier": "stop_11",
+      "template_data": {
+        "title": "Dog domestication",
+        "window_text": [
+          "In more recent years, we’ve artificially bred dogs for lots of other characteristics, from herding and protection, to hunting and - of course - looking cute!\n"
+        ]
+      },
+      "ott": "@Canis_lupus=247341",
+      "qs_opts": "?into_node=max"
+    },
+    {
+      "identifier": "stop_12",
+      "template_data": {
+        "title": "Plant domestication",
+        "visible-transition_in": true,
+        "window_text": [
+          "The process of selective breeding of plants is very similar to that in animals, but we might select for slightly different desirable characteristics. Over time, humans have artificially bred plants that have increased crop yield ... \n"
+        ]
+      },
+      "ott": "@Triticum_dicoccon=499335",
+      "qs_opts": "?into_node=max",
+      "fly_in_speed": 3
+    },
+    {
+      "identifier": "stop_13",
+      "template_data": {
+        "title": "Plant domestication",
+        "window_text": [
+          "... better tasting fruits ... "
+        ]
+      },
+      "ott": "@Malus_pumila=854961",
+      "qs_opts": "?into_node=max",
+      "transition_in": "leap",
+      "fly_in_speed": 3
+    },
+    {
+      "identifier": "stop_14",
+      "template_data": {
+        "title": "Plant domestication",
+        "window_text": [
+          "... better drought resistance ..."
+        ]
+      },
+      "ott": "@Panicum_miliaceum=1079445",
+      "qs_opts": "?into_node=max",
+      "transition_in": "leap",
+      "fly_in_speed": 3
+    },
+    {
+      "identifier": "stop_15",
+      "template_data": {
+        "title": "Plant domestication",
+        "window_text": [
+          "... better disease resistance ...\n"
+        ]
+      },
+      "ott": "@Oryza_sativa=709894",
+      "qs_opts": "?into_node=max",
+      "transition_in": "leap",
+      "fly_in_speed": 3
+    },
+    {
+      "identifier": "stop_16",
+      "template_data": {
+        "title": "Plant domestication",
+        "window_text": [
+          "... or even particularly striking flowers!\n"
+        ]
+      },
+      "ott": "@Rosa_chinensis=1054817",
+      "qs_opts": "?into_node=max",
+      "transition_in": "leap",
+      "fly_in_speed": 3
+    },
+    {
+      "identifier": "stop_17",
+      "template_data": {
+        "title": "Cutting the mustard",
+        "visible-transition_in": true,
+        "window_text": [
+          "Sometimes, one species has even been artificially bred to result in many modern day plants. What plants do you think are the result of selectively breeding this wild mustard plant?\n"
+        ]
+      },
+      "ott": "@Brassica_oleracea=833642",
+      "qs_opts": "?into_node=max",
+      "fly_in_speed": 3
+    },
+    {
+      "identifier": "stop_18",
+      "template_data": {
+        "title": "Cutting the mustard",
+        "window_text": [
+          "Turns out, a lot! Cauliflower, cabbage, brussel sprouts, broccoli, kale and kohlrabi all trace their ancestry back to the wild mustard plant. From just one ancestor, we have selected for a wide range of flavours, textures and colours! "
+        ]
+      },
+      "ott": "@Brassica_oleracea=833642",
+      "qs_opts": "?into_node=max"
+    },
+    {
+      "identifier": "stop_19",
+      "template_data": {
+        "title": "It's not all good news ",
+        "window_text": [
+          "But, selective breeding does have its downsides. Because you are selecting for the same characteristics, selectively bred plants and animals will have very little genetic variation, or a reduced gene pool.  When closely related (or genetically similar) organisms are bred together, we also call this inbreeding. \n"
+        ]
+      },
+      "ott": "@Brassica_oleracea=833642",
+      "fly_in_speed": 3
+    },
+    {
+      "identifier": "stop_20",
+      "template_data": {
+        "title": "It's not all good news",
+        "visible-transition_in": true,
+        "window_text": [
+          "The reduction of genetic variation (and number of alleles in a population) can be bad because organisms can become very susceptible to disease because there is less chance of resistant alleles being in the reduced gene pool. Similarly, inbred populations are also more likely to inherit harmful genetic defects, and some domesticated organisms are really likely to inherit some disorders. For example, poodles are extremely prone to inherited eye disorders."
+        ]
+      },
+      "ott": "@Canis_lupus=247341",
+      "qs_opts": "?into_node=max",
+      "fly_in_speed": 3
+    },
+    {
+      "identifier": "stop_21",
+      "template_data": {
+        "title": "It's not all good news",
+        "window_text": [
+          "Selectively bred organisms, because of their low genetic variation, may also all have similar susceptibility to a disease, and be wiped out by one infection spreading through the population. For example, domesticated bananas all lack resistance genes against Tropical Race 4 (TR4), a soil-borne fungus causing Panama disease that can wipe out entire plantations."
+        ]
+      },
+      "ott": "@Musa_acuminata=207474",
+      "qs_opts": "?into_node=max",
+      "transition_in": "leap",
+      "fly_in_speed": 3
+    },
+    {
+      "identifier": "stop_22",
+      "template_data": {
+        "title": "Artificial selection",
+        "window_text": [
+          "Still, the domestication of plants and animals from selective breeding has been a powerful way of feeding our species, as well as creating some furry friends along the way. What do you think is the future of plant and animal domestication?"
+        ]
+      },
+      "ott": "@_ancestor=5877687=635958",
+      "qs_opts": "?into_node=max",
+      "transition_in": "leap",
+      "fly_in_speed": 3
+    }
+  ]
+}
