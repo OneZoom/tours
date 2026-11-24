@@ -1,0 +1,191 @@
+{
+  "identifier": "natural_selection_a",
+  "title": "“Natural Selection”  (AQA GCSE)",
+  "description": "LEARNING GOAL: Understanding how natural selection may lead to the evolution of new physical characteristics\nAddresses GCSE AQA syllabus 4.6.2.1. Variation, 4.6.2.2. Evolution\n",
+  "author": "OneZoom Team",
+  "license": "all-rights-reserved",
+  "image_url": "imgsrc:99:26905864",
+  "tourstops": [
+    {
+      "identifier": "stop_1",
+      "template_data": {
+        "title": "What drives evolution?",
+        "visible-transition_in": true,
+        "window_text": [
+          " Life on Earth today is a result of billions of years of evolution, or those tiny changes that are inherited between generations. But is evolution completely random?"
+        ]
+      },
+      "ott": "@biota=93302",
+      "qs_opts": "?into_node=max"
+    },
+    {
+      "identifier": "stop_2",
+      "template_data": {
+        "title": "Survival of the Fittest",
+        "visible-transition_in": true,
+        "window_text": [
+          "Not at all! One of the primary forces of evolution is natural selection, which we also call survival of the fittest. The idea here is simple - individuals with adaptive traits (traits that are beneficial) are more likely to survive or reproduce. This means they are also more likely to pass on their genes, and their adaptive characteristics, to the next generation."
+        ]
+      },
+      "ott": "@biota=93302"
+    },
+    {
+      "identifier": "stop_3",
+      "template_data": {
+        "title": "Surival of the Fittest",
+        "visible-transition_in": true,
+        "window_text": [
+          "In the next generation, this process repeats. Those with the most adaptive traits (the “fittest”) are most likely to survive and reproduce, pass on their genes, and have offspring with the same adaptive traits. Over many, many generations, this adaptive trait may have spread to every living individual of a species - passed down by their parents, grandparents and far-flung ancestors before them!"
+        ]
+      },
+      "ott": "@_ancestor=5877687=635958",
+      "qs_opts": "?into_node=max"
+    },
+    {
+      "identifier": "stop_4",
+      "template_data": {
+        "title": "Natural Selection",
+        "window_text": [
+          "This is the process of natural selection, and has resulted in some of the most striking traits in living organisms today.\n"
+        ]
+      },
+      "ott": "@_ancestor=5877687=635958"
+    },
+    {
+      "identifier": "stop_5",
+      "template_data": {
+        "title": "A bizarre defense mechanism",
+        "visible-transition_in": true,
+        "window_text": [
+          "Take, for example, Texas horned lizard. This little guy is not only well-camouflaged against the soil, it also has evolved specific traits that help to repel predators. First, it has sharp horns and scales and, second, it can squirt streams of blood from the corners of its eyes! You can imagine that this does not make for a very appealing meal … and so the lizard is more likely to survive, more likely to have offspring, and more likely to pass on its genes!"
+        ]
+      },
+      "ott": "@Phrynosoma_cornutum=968168",
+      "qs_opts": "?into_node=max",
+      "fly_in_speed": 3
+    },
+    {
+      "identifier": "stop_6",
+      "template_data": {
+        "title": "Natural Selection",
+        "window_text": [
+          "But who came up with the theory of Natural Selection? Interestingly, two scientists independently proposed natural selection in the 1850s. Charles Darwin and Alfred Wallace both noticed that certain organisms seemed uniquely suited - or adapted - to their environment. One famous example are the “Darwin’s finches”, or the Galapagos finches.\n"
+        ]
+      },
+      "ott": "@_ancestor=589949=589943",
+      "transition_in": "leap",
+      "fly_in_speed": 3
+    },
+    {
+      "identifier": "stop_7",
+      "template_data": {
+        "title": "Darwin's finches",
+        "visible-transition_in": true,
+        "window_text": [
+          "During Charles Darwin’s voyage of the HMS Beagle, Darwin observed the incredible diversity of beaks in the finches of the Galapagos Islands. More interestingly, he noticed that their beak shapes seemed to match their diet …\n"
+        ]
+      },
+      "ott": "@_ancestor=589949=589943",
+      "qs_opts": "?into_node=max"
+    },
+    {
+      "identifier": "stop_8",
+      "template_data": {
+        "title": "Darwin's finches",
+        "visible-transition_in": true,
+        "window_text": [
+          "…birds who ate hard seeds had deep, wide beaks ..."
+        ]
+      },
+      "ott": "@Geospiza_magnirostris=589955",
+      "qs_opts": "?into_node=max"
+    },
+    {
+      "identifier": "stop_9",
+      "template_data": {
+        "title": "Darwin's finches",
+        "visible-transition_in": true,
+        "window_text": [
+          "… whereas birds that probed cactus flowers and long, pointed beaks.\n"
+        ]
+      },
+      "ott": "@Geospiza_scandens=589959",
+      "qs_opts": "?into_node=max"
+    },
+    {
+      "identifier": "stop_10",
+      "template_data": {
+        "title": "Darwin's finches",
+        "window_text": [
+          "These beak shapes are therefore adaptive traits, or traits that mean the finches have higher fitness in their environment. Birds with deeper or wider beaks would be adept at crushing hard seeds compared to those with slender beaks. If they live in an environment with lots of hard seeds, this would give them a huge advantage and they would likely live healthier, longer and have more offspring.\n"
+        ]
+      },
+      "ott": "@Geospiza_magnirostris=589955",
+      "transition_in": "leap"
+    },
+    {
+      "identifier": "stop_11",
+      "template_data": {
+        "title": "Darwin's finches",
+        "window_text": [
+          "Birds with long, pointed beaks may be useless at crushing seeds, but would be much better at getting at the nectar in long cactus flowers. Similarly, this could give them an advantage over different birds and they could pass on their characteristics to their offspring."
+        ]
+      },
+      "ott": "@Geospiza_scandens=589959"
+    },
+    {
+      "identifier": "stop_12",
+      "template_data": {
+        "title": "Darwin's finches",
+        "window_text": [
+          "Darwin suggested that these finches had evolved from an ancestor on the Southern American mainland in response to their environment and that their different beak shapes had evolved incrementally over time. "
+        ]
+      },
+      "ott": "@_ancestor=349672=589949",
+      "qs_opts": "?into_node=max"
+    },
+    {
+      "identifier": "stop_13",
+      "template_data": {
+        "title": "Building a theory",
+        "window_text": [
+          "Through these sorts of observations, Darwin and Wallace both came up with the theory of Natural Selection: organisms better suited to their environment will be more likely to survive, reproduce and pass on those advantageous traits to their offspring."
+        ]
+      },
+      "ott": "@_ancestor=349672=589949"
+    },
+    {
+      "identifier": "stop_14",
+      "template_data": {
+        "title": "Building a theory",
+        "window_text": [
+          "Interestingly, neither Darwin or Wallace knew how traits were passed on (the field of genetics did not yet exist!), they only knew that offspring are more likely to resemble parents and so changes must be inherited. "
+        ]
+      },
+      "ott": "@_ancestor=349672=589949"
+    },
+    {
+      "identifier": "stop_15",
+      "template_data": {
+        "title": "Natural Selection",
+        "visible-transition_in": true,
+        "window_text": [
+          "Today, we know that it is through our genes that we inherit many of our traits from our parents. Parents passing on adaptive traits are in fact passing on adaptive alleles (alleles that result in characteristics that increase an organism's chance of selection). "
+        ]
+      },
+      "ott": "@biota=93302",
+      "fly_in_speed": 3
+    },
+    {
+      "identifier": "stop_16",
+      "template_data": {
+        "title": "Natural Selection",
+        "window_text": [
+          "Importantly, this means natural selection can only happen when differences in traits are driven by genetic variation. Otherwise, the trait cannot be passed on! Across the tree of life, we see variable traits caused by differences in genes. What could be driving natural selection today? "
+        ]
+      },
+      "ott": "@biota=93302",
+      "qs_opts": "?into_node=max"
+    }
+  ]
+}
