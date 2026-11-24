@@ -1,0 +1,213 @@
+{
+  "identifier": "theory_of_evolution",
+  "title": "“Theory of Evolution 1”  (AQA GCSE)",
+  "description": "LEARNING GOAL: Understanding that all species have evolved from simple life forms first originating >3 billion years ago. Understanding how evolution has led to the diversity of life today. \nLEARNING GOAL: Understanding the role of natural selection in evolution\n\nAddresses GCSE AQA syllabus: 4.6.2.1. \"Variation\"; 4.6.2.2. \"Evolution\"\n",
+  "author": "OneZoom Team",
+  "license": "all-rights-reserved",
+  "image_url": "imgsrc:20:8621909",
+  "tourstops": [
+    {
+      "identifier": "stop_1",
+      "template_data": {
+        "title": "Life on Earth",
+        "visible-transition_in": true,
+        "window_text": [
+          "The diversity of life on Earth is incredible. From bacteria to plants, from\tfish to mammals - life takes all forms! But how did this diversity come about? What are the forces that have led to over two billion different species on our one planet?\n"
+        ]
+      },
+      "ott": "@biota=93302",
+      "qs_opts": "?into_node=max"
+    },
+    {
+      "identifier": "stop_2",
+      "template_data": {
+        "title": "It's slow going",
+        "visible-transition_in": true,
+        "window_text": [
+          "All of life today can actually trace its history, or ancestry, to one common ancestor over 3 billion years ago. That means that the life we see today has been over 3 billion years in the making. What kind of process can be this powerful, and also this slow?"
+        ]
+      },
+      "ott": "@biota=93302",
+      "qs_opts": "?into_node=max"
+    },
+    {
+      "identifier": "stop_3",
+      "template_data": {
+        "title": "Evolution is the magic word",
+        "visible-transition_in": true,
+        "window_text": [
+          "Evolution! Evolution is the small changes between generations that, over time, can lead to huge changes in characteristics. Like …"
+        ]
+      },
+      "ott": "@biota=93302"
+    },
+    {
+      "identifier": "stop_4",
+      "template_data": {
+        "title": "Evolution is the magic word",
+        "visible-transition_in": true,
+        "window_text": [
+          "The evolution of a backbone (or vertebrate) ...\n"
+        ],
+        "media": [
+          "imgsrc:99:31414595"
+        ]
+      },
+      "ott": "@Vertebrata=801601"
+    },
+    {
+      "identifier": "stop_5",
+      "template_data": {
+        "title": "Evolution is the magic word",
+        "visible-transition_in": true,
+        "window_text": [
+          "The evolution of feathers ..."
+        ],
+        "media": [
+          "imgsrc:99:27785087"
+        ]
+      },
+      "ott": "@Aves=81461"
+    },
+    {
+      "identifier": "stop_6",
+      "template_data": {
+        "title": "Evolution is the magic word",
+        "visible-transition_in": true,
+        "window_text": [
+          "Or even the evolution of apes, like you and me!"
+        ],
+        "media": [
+          "imgsrc:99:26863090"
+        ]
+      },
+      "ott": "@Hominoidea=386191"
+    },
+    {
+      "identifier": "stop_7",
+      "template_data": {
+        "title": "So how does it work?",
+        "window_text": [
+          "As scientists, we have lots of questions about evolution. Like, what drives evolution? Is this process totally random? Why do different species evolve so many different characteristics?"
+        ]
+      },
+      "ott": "@Metazoa=691846",
+      "fly_in_speed": 3
+    },
+    {
+      "identifier": "stop_8",
+      "template_data": {
+        "title": "Natural Selection",
+        "window_text": [
+          "In the 1800s, Charles Darwin and Alfred Wallace proposed that characteristics evolve if they are beneficial to individuals. Individuals that are better at surviving - and that can mean anything from getting enough food, avoiding predators or finding a mate! - are more likely to have more offspring. That means they are more likely to pass on their characteristics, via their genes."
+        ]
+      },
+      "ott": "@biota=93302"
+    },
+    {
+      "identifier": "stop_9",
+      "template_data": {
+        "title": "Natural Selection",
+        "window_text": [
+          "They called this Natural Selection, or survival of the fittest. Shall we look at some examples? \nRemember, there are lots of different reasons why a trait might be beneficial, and under “natural selection”."
+        ]
+      },
+      "ott": "@Eukaryota=304358",
+      "qs_opts": "?into_node=max"
+    },
+    {
+      "identifier": "stop_10",
+      "template_data": {
+        "title": "A tall order",
+        "window_text": [
+          "Why do you think giraffes have evolved such long necks?"
+        ],
+        "media": [
+          "imgsrc:99:26880387"
+        ]
+      },
+      "ott": "@Giraffidae=768685"
+    },
+    {
+      "identifier": "stop_11",
+      "template_data": {
+        "title": "A tall order",
+        "window_text": [
+          "Long necks help giraffes reach food no other animals can reach! If a giraffe ancestor had a slightly longer neck than the others in its population, it would be able to eat more food, grow a lot stronger and be more likely to have lots of healthy offspring."
+        ]
+      },
+      "ott": "@Giraffidae=768685"
+    },
+    {
+      "identifier": "stop_12",
+      "template_data": {
+        "title": "Bright is beautiful",
+        "window_text": [
+          "Why do you think this sunflower has evolved such bright petals?\n"
+        ],
+        "media": [
+          "imgsrc:99:25656116"
+        ]
+      },
+      "ott": "@_ancestor=7606059=7606062",
+      "transition_in": "leap",
+      "fly_in_speed": 3
+    },
+    {
+      "identifier": "stop_13",
+      "template_data": {
+        "title": "Bright is beautiful",
+        "window_text": [
+          "Bright petals help this flower to attract pollinators, which helps it reproduce. Flowers with duller flowers might not be able to attract as many pollinators and might have trouble reproducing. "
+        ]
+      }
+    },
+    {
+      "identifier": "stop_14",
+      "template_data": {
+        "title": "'Ears to that",
+        "window_text": [
+          "Why do you think rabbits have evolved such big ears?\n"
+        ],
+        "media": [
+          "imgsrc:20:3599570"
+        ]
+      },
+      "ott": "@Leporidae=644258",
+      "transition_in": "leap",
+      "fly_in_speed": 3
+    },
+    {
+      "identifier": "stop_15",
+      "template_data": {
+        "title": "'Ears to that",
+        "window_text": [
+          "The big ears of rabbits help them to hear when predators approach. If a fox is stalking you, it is much better to be able to hear them coming from far away! Ancestors with bigger ears will have much higher chances of survival and therefore live to pass on their genes.\n"
+        ]
+      }
+    },
+    {
+      "identifier": "stop_16",
+      "template_data": {
+        "title": "It's slow going",
+        "window_text": [
+          "We have to remember that this is not a quick process - it can take generations and generations and generations for characteristics to be shared amongst the whole population - or for all giraffes to have long necks, all sunflowers to have bright petals or all rabbits to have big ears!"
+        ]
+      },
+      "ott": "@Metazoa=691846"
+    },
+    {
+      "identifier": "stop_17",
+      "template_data": {
+        "title": "Your turn!",
+        "window_text": [
+          "But these changes can be dramatic! Why don’t you pick one of our other tours, and try to think why some of the characteristics you see there have evolved?"
+        ],
+        "media": [
+          "imgsrc:20:8621909"
+        ]
+      },
+      "ott": "@biota=93302"
+    }
+  ]
+}
